@@ -36,9 +36,10 @@ export default function Home() {
       <section className="bg-gradient-to-b from-blue-50 to-white">
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6">Instagram to MP4 Converter & Downloader</h1>
-            <p className="text-xl text-gray-600 mb-8">
-              Convert and download Instagram videos, reels, and stories to MP4 format for free
+            <h1 className="text-4xl font-bold mb-10">Instagram to MP4 Downloader Tools: Your Ultimate Guide</h1>
+            <h2 className="text-2xl font-bold mb-6">Convert Instagram Videos to MP4 with Ease</h2>
+            <p className="text-0.5xl text-gray-600 mb-1">
+              Welcome to InstagramToMP4 Nav - your one-stop resource for finding the best Instagram to MP4 converters and downloaders. Whether you're looking to save Instagram videos or convert Instagram content to MP4, we've got you covered!
             </p>
           </div>
         </div>
@@ -52,7 +53,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           {/* Our Services Section */}
           <section className="mb-16">
-            <h2 className="text-3xl font-semibold mb-8 text-center">Our Instagram to MP4 Services</h2>
+            <h2 className="text-3xl font-semibold mb-8 text-center">Featured Instagram to MP4 Tool Categories</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {features.map((feature) => (
                 <Link
@@ -69,30 +70,30 @@ export default function Home() {
           </section>
 
           <section className="bg-gray-50 rounded-lg p-8 mb-16">
-            <h2 className="text-3xl font-semibold mb-6 text-center">Why Choose InstagramToMP4.com?</h2>
+            <h2 className="text-3xl font-semibold mb-6 text-center">Why Choose Our Instagram to MP4 Tool Nav?</h2>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-6 h-6 text-green-500 mr-2">✓</span>
                 <span>
-                  <strong>Fast MP4 Conversion:</strong> Convert Instagram content to MP4 in seconds
+                  <strong>Curated Selection:</strong> Handpicked top Instagram to MP4 converter tools for you.
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-6 h-6 text-green-500 mr-2">✓</span>
                 <span>
-                  <strong>High-Quality Output:</strong> Download Instagram videos in the best available quality
+                  <strong>Comprehensive Coverage:</strong> Tools for all Instagram content: videos, Stories, and Reels.
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-6 h-6 text-green-500 mr-2">✓</span>
                 <span>
-                  <strong>User-Friendly:</strong> Simple interface for easy Instagram to MP4 conversion
+                  <strong>Regular Updates:</strong> Our Instagram video downloader list is constantly refreshed.
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="flex-shrink-0 w-6 h-6 text-green-500 mr-2">✓</span>
                 <span>
-                  <strong>Free & Unlimited:</strong> No registration or software installation required
+                  <strong>Free Access:</strong> No registration needed - start converting Instagram to MP4 now!
                 </span>
               </li>
               <li className="flex items-start">
@@ -112,10 +113,11 @@ export default function Home() {
                   1
                 </span>
                 <div>
-                  <h3 className="font-semibold mb-1">Copy Instagram URL</h3>
+                  <h3 className="font-semibold mb-1">Browse</h3>
                   <p className="text-gray-600">
-                    Find the Instagram video, reel, or story you want to convert and copy its URL
+                    Browse our list of Instagram to MP4 downloader tools
                   </p>
+
                 </div>
               </li>
               <li className="flex items-start">
@@ -123,8 +125,10 @@ export default function Home() {
                   2
                 </span>
                 <div>
-                  <h3 className="font-semibold mb-1">Paste URL</h3>
-                  <p className="text-gray-600">Paste the copied URL into the input field on InstagramToMP4.com</p>
+                  <h3 className="font-semibold mb-1">Read</h3>
+                  <p className="text-gray-600">
+                    Read descriptions and user ratings of each Instagram video converter
+                  </p>
                 </div>
               </li>
               <li className="flex items-start">
@@ -132,9 +136,10 @@ export default function Home() {
                   3
                 </span>
                 <div>
-                  <h3 className="font-semibold mb-1">Convert to MP4</h3>
+                  <h3 className="font-semibold mb-1">Choose</h3>
                   <p className="text-gray-600">
-                    Click the "Convert to MP4" button and wait for the conversion to complete
+                    Choose your preferred Instagram to MP4 tool
+
                   </p>
                 </div>
               </li>
@@ -143,17 +148,19 @@ export default function Home() {
                   4
                 </span>
                 <div>
-                  <h3 className="font-semibold mb-1">Download MP4</h3>
-                  <p className="text-gray-600">Once converted, click the "Download MP4" button to save your video</p>
+                  <h3 className="font-semibold mb-1">Converting</h3>
+                  <p className="text-gray-600">
+                    Follow our link to start downloading and converting Instagram videos to MP4
+                  </p>
                 </div>
               </li>
             </ol>
           </section>
 
           <section className="text-center">
-            <h2 className="text-3xl font-semibold mb-6">Ready to Convert Instagram to MP4?</h2>
-            <p className="text-xl text-gray-600 mb-8">
-              Start using InstagramToMP4.com now and enjoy your favorite Instagram content offline!
+            <h2 className="text-3xl font-semibold mb-16">Explore Instagram to MP4 Tools Now!</h2>
+            <p className="text-0.1xl text-gray-600 mb-0">
+            Remember: Always respect copyright laws when converting Instagram videos to MP4.
             </p>
           </section>
         </div>
