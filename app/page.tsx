@@ -1,6 +1,9 @@
 import { Video, Film, Instagram, Image } from "lucide-react"
 import Link from "next/link"
 import { FeaturedTools } from "@/components/featured-tools"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { Card, CardContent } from "@/components/ui/card"
+import { Quote } from "lucide-react"
 
 export default function Home() {
   const features = [
@@ -157,10 +160,63 @@ export default function Home() {
             </ol>
           </section>
 
+          {/* Testimonials Section */}
+          <section className="text-center mb-20">
+            <h2 className="text-3xl font-bold mb-12">What Our Users Say</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                {
+                  quote: "I found the perfect Instagram to MP4 converter in minutes thanks to InstaToolNav!",
+                  author: "Mark R.",
+                },
+                {
+                  quote:
+                    "This site saved me hours of searching. The Instagram video downloaders here are reliable and fast!",
+                  author: "Emily S.",
+                },
+                {
+                  quote:
+                    "As a content creator, I rely on InstaToolNav for all my Instagram to MP4 conversion needs. It's a game-changer!",
+                  author: "Alex T.",
+                },
+              ].map((testimonial, i) => (
+                <Card key={i} className="text-left">
+                  <CardContent className="pt-6">
+                    <Quote className="w-8 h-8 text-[#4285F4] mb-4" />
+                    <p className="text-gray-700 mb-4">{testimonial.quote}</p>
+                    <p className="font-semibold text-[#4285F4]">- {testimonial.author}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </section>
+
+          {/* FAQ Section */}
+          <section className="max-w-3xl mx-auto mb-20">
+            <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="item-1">
+                <AccordionTrigger>Are these Instagram to MP4 tools safe?</AccordionTrigger>
+                <AccordionContent>We vet all tools for safety, but always use caution when downloading.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2">
+                <AccordionTrigger>Do I need to pay for these Instagram video converters?</AccordionTrigger>
+                <AccordionContent>Many Instagram to MP4 tools are free, but some offer premium features.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-3">
+                <AccordionTrigger>How often do you update the Instagram to MP4 tool list?</AccordionTrigger>
+                <AccordionContent>
+                  We review and update our list weekly to ensure all Instagram video downloaders are functional.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
+
+
           <section className="text-center">
             <h2 className="text-3xl font-semibold mb-16">Explore Instagram to MP4 Tools Now!</h2>
             <p className="text-0.1xl text-gray-600 mb-0">
-            Remember: Always respect copyright laws when converting Instagram videos to MP4.
+              Remember: Always respect copyright laws when converting Instagram videos to MP4.
             </p>
           </section>
         </div>
