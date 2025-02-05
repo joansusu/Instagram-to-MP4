@@ -4,6 +4,7 @@ import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import type React from "react"
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <main className="flex-grow">{children}</main>
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-SKHS9RZBGR" />
     </html>
   )
 }
