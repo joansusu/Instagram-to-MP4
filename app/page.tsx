@@ -166,7 +166,7 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-6">
               {[
                 {
-                  quote: "I found the perfect Instagram to MP4 converter in minutes thanks to InstaToolNav!",
+                  quote: "I found the perfect Instagram to MP4 converter in minutes thanks to Instagram to MP4 Nav!",
                   author: "Mark R.",
                 },
                 {
