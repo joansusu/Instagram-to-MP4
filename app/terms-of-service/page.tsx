@@ -73,7 +73,7 @@ export default function Terms(){
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
             <p className="text-gray-700 mb-4">
-              If you have any questions about these Terms, please contact us at support@instagramtomp4.com.
+              If you have any questions about these Terms, please contact us at info@instagramtomp4.com.
             </p>
           </section>
         </div>
