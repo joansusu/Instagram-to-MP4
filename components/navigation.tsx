@@ -15,8 +15,8 @@ export function Navigation() {
             <Link href="#" className="text-white hover:text-gray-200">
               Tools
             </Link>
-            <Link href="#" className="text-white hover:text-gray-200">
-              Contact
+            <Link href="/blog" className="text-white hover:text-gray-200">
+              Blog
             </Link>
           </div>
         </div>
