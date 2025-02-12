@@ -9,11 +9,11 @@ export function Navigation() {
             InstagramToMP4
           </Link>
           <div className="hidden md:flex space-x-6">
-            <Link href="#" className="text-white hover:text-gray-200">
+            {/* <Link href="#" className="text-white hover:text-gray-200">
               About
-            </Link>
-            <Link href="#" className="text-white hover:text-gray-200">
-              Tools
+            </Link> */}
+            <Link href="/instagram-name-generator" className="text-white hover:text-gray-200">
+            Instagram Name Generator
             </Link>
             <Link href="/blog" className="text-white hover:text-gray-200">
               Blog
