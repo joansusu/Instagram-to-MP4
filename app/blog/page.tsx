@@ -1,10 +1,7 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Facebook, Twitter, Share2, ArrowRight, MessageSquare } from "lucide-react"
-import Link from "next/link"
-import { Metadata } from "next"
+
 import BlogList from "@/components/BlogList"
 import { blogs } from "@/lib/blogs"
+import { Metadata } from "next"
 
 export const metadata:Metadata={
   title:'Blogs - InstagramToMP4',
