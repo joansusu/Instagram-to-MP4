@@ -10,9 +10,17 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 import { featuredTools } from "@/lib/featuredTools";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Best Instagram to MP3 Converter Tools - Your Ultimate Navigation Guide",
+  description:
+    "Explore the best Instagram to MP3 converter tools with our comprehensive navigation guide. Find reliable websites to convert Instagram videos to high-quality MP3 files easily. No registration required, free to use, and compatible with all devices. Start converting now!",
+};
 
 const featuredSites = [
-  //page middle section-Featured Instagram to MP4 Tool Categories
+  //Featured Instagram to MP4 Tool Categories
   {
     title: "Instagram Videos to MP4",
     description: "Convert and download Instagram videos to MP4 format",
@@ -39,11 +47,11 @@ const featuredSites = [
   },
 ];
 
-const insMP4Sites = featuredTools.filter((site) =>
-  site.tag.includes("instagram to mp4")
+const insMP3Sites = featuredTools.filter((site) =>
+  site.tag.includes("instagram to mp3")
 );
 
-export default function Home() {
+export default function InstagramToMP3Page() {
   const description =
     " Discover our handpicked selection of the best Instagram video downloaders and converters";
 
@@ -54,23 +62,18 @@ export default function Home() {
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold mb-10">
-              Instagram to MP4 Downloader Tools Nav
+              Instagram to MP3 Downloader Tools Nav
             </h1>
-            <h2 className="text-2xl font-bold mb-6">
-              Convert Instagram Videos to MP4 with Ease
-            </h2>
+
             <p className="text-0.5xl text-gray-600 mb-1">
-              Welcome to InstagramToMP4 Nav - your one-stop resource for finding
-              the best Instagram to MP4 converters and downloaders. Whether
-              you're looking to save Instagram videos or convert Instagram
-              content to MP4, we've got you covered!
+              Enhance your social media experience with our expertly curated selection of websites offering Instagram to MP3 converter tools. As a dedicated navigation site for social media download tools, we guide you to the best and most reliable websites for converting Instagram videos into high-quality MP3 files effortlessly. Whether you're a content creator, music enthusiast, or someone who loves saving audio from Instagram, our navigation site helps you find the perfect tools to meet your needs with precision and ease.
             </p>
           </div>
         </div>
       </section>
 
       {/* Featured Tools Section */}
-      <FeaturedTools featuredTools={insMP4Sites} description={description} />
+      <FeaturedTools featuredTools={insMP3Sites} description={description} />
 
       {/* Main Content Container */}
       <div className="container mx-auto px-4 py-16">

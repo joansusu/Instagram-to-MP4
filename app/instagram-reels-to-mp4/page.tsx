@@ -10,9 +10,17 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 import { featuredTools } from "@/lib/featuredTools";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Instagram to MP4 Downloader Tools | Best Ways to Convert Instagram Videos",
+  description:
+    "Discover top Instagram to MP4 converter tools. Our curated list helps you easily download and convert Instagram videos to MP4 format. Find the best Instagram video downloaders here!",
+};
 
 const featuredSites = [
-  //page middle section-Featured Instagram to MP4 Tool Categories
+  //Featured Instagram to MP4 Tool Categories
   {
     title: "Instagram Videos to MP4",
     description: "Convert and download Instagram videos to MP4 format",
@@ -39,11 +47,11 @@ const featuredSites = [
   },
 ];
 
-const insMP4Sites = featuredTools.filter((site) =>
-  site.tag.includes("instagram to mp4")
+const insReelSites = featuredTools.filter((site) =>
+  site.tag.includes("instagram reels to mp4")
 );
 
-export default function Home() {
+export default function InstagramReelstoMP4Page() {
   const description =
     " Discover our handpicked selection of the best Instagram video downloaders and converters";
 
@@ -53,14 +61,12 @@ export default function Home() {
       <section className="bg-gradient-to-b from-blue-50 to-white">
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl font-bold mb-10">
-              Instagram to MP4 Downloader Tools Nav
-            </h1>
+            <h1 className="text-4xl font-bold mb-10">Instagram Reels to MP4</h1>
             <h2 className="text-2xl font-bold mb-6">
               Convert Instagram Videos to MP4 with Ease
             </h2>
             <p className="text-0.5xl text-gray-600 mb-1">
-              Welcome to InstagramToMP4 Nav - your one-stop resource for finding
+              Welcome to InstagramToMP3 Nav - your one-stop resource for finding
               the best Instagram to MP4 converters and downloaders. Whether
               you're looking to save Instagram videos or convert Instagram
               content to MP4, we've got you covered!
@@ -70,7 +76,7 @@ export default function Home() {
       </section>
 
       {/* Featured Tools Section */}
-      <FeaturedTools featuredTools={insMP4Sites} description={description} />
+      <FeaturedTools featuredTools={insReelSites} description={description} />
 
       {/* Main Content Container */}
       <div className="container mx-auto px-4 py-16">

@@ -1,72 +1,24 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card, CardContent } from '@/components/ui/card';
-import { Copy, RefreshCw, Check } from 'lucide-react';
-import { useToast } from '@/hooks/use-toast';
-import { Switch } from '@/components/ui/switch';
-import { Label } from '@/components/ui/label';
-import { CATEGORY_WORDS } from "@/lib/CATEGORY_WORDS"
-
-const CATEGORIES = [
-  'Cool',
-  'Creative',
-  'Funny',
-  'Gaming',
-  'Professional',
-  'Travel',
-  'Fashion',
-  'Art',
-  'Music',
-  'Sports',
-];
-
-
-
-const SUFFIXES = [
-  'official',
-  'real',
-  'original',
-  'theone',
-  'pro',
-  'world',
-  'life',
-  'style',
-  '_',
-  'x',
-];
-
-const PREFIXES = [
-  'the',
-  'im',
-  'its',
-  'mr',
-  'ms',
-  'dr',
-  'just',
-  'real',
-  'your',
-  'my',
-];
-
-const RANDOM_WORDS = [
-  'creative',
-  'awesome',
-  'unique',
-  'stellar',
-  'epic',
-  'vibrant',
-  'dynamic',
-  'trendy',
-  'iconic',
-  'cosmic',
-];
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Card } from "@/components/ui/card";
+import { Copy, RefreshCw, Check } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
+import { Switch } from "@/components/ui/switch";
+import { Label } from "@/components/ui/label";
+import {
+  CATEGORIES,
+  CATEGORY_WORDS,
+  SUFFIXES,
+  PREFIXES,
+  RANDOM_WORDS,
+} from "@/lib/instagramNames";
 
 export function InstagramNameGenerator() {
-  const [name, setName] = useState('');
-  const [category, setCategory] = useState('Cool');
+  const [name, setName] = useState("");
+  const [category, setCategory] = useState("Cool");
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
   const [copiedAll, setCopiedAll] = useState(false);
   const [includeNumbers, setIncludeNumbers] = useState(true);
@@ -74,51 +26,60 @@ export function InstagramNameGenerator() {
   const { toast } = useToast();
 
   const copyAllUsernames = () => {
-    const allUsernames = generatedNames.join('\n');
+    const allUsernames = generatedNames.join("\n");
     navigator.clipboard.writeText(allUsernames);
     setCopiedAll(true);
     setTimeout(() => setCopiedAll(false), 2000);
     toast({
-      title: 'All usernames copied!',
-      description: 'All usernames have been copied to your clipboard.',
+      title: "All usernames copied!",
+      description: "All usernames have been copied to your clipboard.",
     });
   };
 
   const generateNames = () => {
     const baseNames = [];
-    const inputName = name ? name.toLowerCase().replace(/[^a-z0-9]/g, '') : '';
+    const inputName = name ? name.toLowerCase().replace(/[^a-z0-9]/g, "") : "";
 
     // Generate 10 unique usernames
     for (let i = 0; i < 10; i++) {
       const random = Math.random();
-      let username = '';
+      let username = "";
 
       // If no input name, use random words
-      const baseName = inputName || RANDOM_WORDS[Math.floor(Math.random() * RANDOM_WORDS.length)];
+      const baseName =
+        inputName ||
+        RANDOM_WORDS[Math.floor(Math.random() * RANDOM_WORDS.length)];
 
       if (random < 0.4) {
         // Add prefix
-        username = PREFIXES[Math.floor(Math.random() * PREFIXES.length)] + baseName;
+        username =
+          PREFIXES[Math.floor(Math.random() * PREFIXES.length)] + baseName;
       } else if (random < 0.8) {
         // Add suffix
-        username = baseName + SUFFIXES[Math.floor(Math.random() * SUFFIXES.length)];
+        username =
+          baseName + SUFFIXES[Math.floor(Math.random() * SUFFIXES.length)];
       } else if (includeNumbers) {
         // Add random number
         username = baseName + Math.floor(Math.random() * 999);
       } else {
         // Add both prefix and suffix if numbers are disabled
-        username = PREFIXES[Math.floor(Math.random() * PREFIXES.length)] +
+        username =
+          PREFIXES[Math.floor(Math.random() * PREFIXES.length)] +
           baseName +
           SUFFIXES[Math.floor(Math.random() * SUFFIXES.length)];
       }
 
       // Add category-specific elements
-      const categoryWords = CATEGORY_WORDS[category as keyof typeof CATEGORY_WORDS];
+      const categoryWords =
+        CATEGORY_WORDS[category as keyof typeof CATEGORY_WORDS];
       if (categoryWords) {
         if (Math.random() < 0.5) {
-          username += categoryWords[Math.floor(Math.random() * categoryWords.length)];
+          username +=
+            categoryWords[Math.floor(Math.random() * categoryWords.length)];
         } else {
-          username = categoryWords[Math.floor(Math.random() * categoryWords.length)] + username;
+          username =
+            categoryWords[Math.floor(Math.random() * categoryWords.length)] +
+            username;
         }
       }
 
@@ -138,7 +99,7 @@ export function InstagramNameGenerator() {
     setCopiedIndex(index);
     setTimeout(() => setCopiedIndex(null), 2000);
     toast({
-      title: 'Username copied!',
+      title: "Username copied!",
       description: `${username} has been copied to your clipboard.`,
     });
   };
@@ -167,10 +128,9 @@ export function InstagramNameGenerator() {
               {CATEGORIES.map((cat) => (
                 <Button
                   key={cat}
-                  variant={category === cat ? 'default' : 'outline'}
+                  variant={category === cat ? "default" : "outline"}
                   onClick={() => setCategory(cat)}
-                  className="text-sm"
-                >
+                  className="text-sm">
                   {cat}
                 </Button>
               ))}
@@ -178,7 +138,9 @@ export function InstagramNameGenerator() {
           </div>
 
           <div className="flex items-center justify-between space-x-2">
-            <Label htmlFor="numbers" className="text-sm font-medium text-gray-700">
+            <Label
+              htmlFor="numbers"
+              className="text-sm font-medium text-gray-700">
               Include Numbers
             </Label>
             <Switch
@@ -188,11 +150,7 @@ export function InstagramNameGenerator() {
             />
           </div>
 
-          <Button
-            onClick={generateNames}
-            className="w-full"
-            size="lg"
-          >
+          <Button onClick={generateNames} className="w-full" size="lg">
             <RefreshCw className="w-4 h-4 mr-2" />
             Generate Usernames
           </Button>
@@ -206,11 +164,15 @@ export function InstagramNameGenerator() {
             <Button
               variant="outline"
               size="sm"
-              className={`flex items-center gap-2 transition-colors duration-200 ${copiedAll ? 'bg-green-100 text-green-700' : ''
-                }`}
-              onClick={copyAllUsernames}
-            >
-              {copiedAll ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+              className={`flex items-center gap-2 transition-colors duration-200 ${
+                copiedAll ? "bg-green-100 text-green-700" : ""
+              }`}
+              onClick={copyAllUsernames}>
+              {copiedAll ? (
+                <Check className="w-4 h-4" />
+              ) : (
+                <Copy className="w-4 h-4" />
+              )}
               Copy All
             </Button>
           </div>
@@ -220,21 +182,26 @@ export function InstagramNameGenerator() {
                 key={index}
                 className="flex items-center justify-between p-3 bg-secondary rounded-lg"
                 style={{
-                  transition: 'background-color 0.2s ease-in-out'
-                }}
-              >
+                  transition: "background-color 0.2s ease-in-out",
+                }}>
                 <div className="flex items-center gap-3">
-                  <span className="text-sm text-muted-foreground w-6">{index + 1}.</span>
-                  <span className={`font-mono text-lg ${copiedIndex === index ? 'text-green-600' : ''
-                    }`}>{username}</span>
+                  <span className="text-sm text-muted-foreground w-6">
+                    {index + 1}.
+                  </span>
+                  <span
+                    className={`font-mono text-lg ${
+                      copiedIndex === index ? "text-green-600" : ""
+                    }`}>
+                    {username}
+                  </span>
                 </div>
                 <Button
                   variant="ghost"
                   size="sm"
                   onClick={() => copyToClipboard(username, index)}
-                  className={`transition-all duration-200 ${copiedIndex === index ? 'text-green-600' : ''
-                    }`}
-                >
+                  className={`transition-all duration-200 ${
+                    copiedIndex === index ? "text-green-600" : ""
+                  }`}>
                   {copiedIndex === index ? (
                     <Check className="w-4 h-4 animate-in fade-in-0 zoom-in-0" />
                   ) : (

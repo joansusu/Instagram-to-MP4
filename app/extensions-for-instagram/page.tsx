@@ -10,9 +10,17 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 import { featuredTools } from "@/lib/featuredTools";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Best Extensions for Instagram - Enhance Your Social Media Experience",
+  description:
+    "Explore the best Extensions for Instagram with our comprehensive navigation guide. Enhance your Instagram experience with powerful tools. No registration required, free to use, and compatible with all browsers. Start enhancing now!",
+};
 
 const featuredSites = [
-  //page middle section-Featured Instagram to MP4 Tool Categories
+  //Featured Instagram to MP4 Tool Categories
   {
     title: "Instagram Videos to MP4",
     description: "Convert and download Instagram videos to MP4 format",
@@ -39,11 +47,11 @@ const featuredSites = [
   },
 ];
 
-const insMP4Sites = featuredTools.filter((site) =>
-  site.tag.includes("instagram to mp4")
+const extensionsSites = featuredTools.filter((site) =>
+  site.tag.includes("extensions for instagram")
 );
 
-export default function Home() {
+export default function ExtensionsPage() {
   const description =
     " Discover our handpicked selection of the best Instagram video downloaders and converters";
 
@@ -54,23 +62,21 @@ export default function Home() {
         <div className="container mx-auto px-4 py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl font-bold mb-10">
-              Instagram to MP4 Downloader Tools Nav
+              Extensions for Instagram
             </h1>
-            <h2 className="text-2xl font-bold mb-6">
-              Convert Instagram Videos to MP4 with Ease
-            </h2>
+            
             <p className="text-0.5xl text-gray-600 mb-1">
-              Welcome to InstagramToMP4 Nav - your one-stop resource for finding
-              the best Instagram to MP4 converters and downloaders. Whether
-              you're looking to save Instagram videos or convert Instagram
-              content to MP4, we've got you covered!
+            Transform your Instagram experience with our expertly curated selection of Extensions for Instagram. As a dedicated navigation site for social media download tools, we guide you to the best and most reliable browser extensions that enhance your Instagram usage effortlessly. Whether you're a content creator, social media enthusiast, or someone who loves optimizing their Instagram interactions, our navigation site helps you find the perfect tools to meet your needs with precision and ease.
             </p>
           </div>
         </div>
       </section>
 
       {/* Featured Tools Section */}
-      <FeaturedTools featuredTools={insMP4Sites} description={description} />
+      <FeaturedTools
+        featuredTools={extensionsSites}
+        description={description}
+      />
 
       {/* Main Content Container */}
       <div className="container mx-auto px-4 py-16">
