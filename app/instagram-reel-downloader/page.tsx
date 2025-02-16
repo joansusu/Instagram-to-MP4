@@ -17,7 +17,10 @@ export const metadata: Metadata = {
     "Top Instagram Reel Downloader Tools - Your Ultimate Navigation Guide",
   description:
     "Discover the best Instagram Reel Downloader tools with our comprehensive navigation guide. Save Instagram Reels in high quality effortlessly. No registration required, free to use, and compatible with all devices. Start downloading now!",
-};
+    alternates: {
+      canonical: "https://instagramtomp4.com/instagram-reel-downloader",
+    },
+  };
 
 const featuredSites = [
   //Featured Instagram to MP4 Tool Categories

@@ -10,6 +10,13 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 import { featuredTools } from "@/lib/featuredTools";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    alternates: {
+      canonical: "https://instagramtomp4.com/",
+    },
+  };
 
 const featuredSites = [
   //page middle section-Featured Instagram to MP4 Tool Categories

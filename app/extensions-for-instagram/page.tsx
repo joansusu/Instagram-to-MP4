@@ -17,7 +17,10 @@ export const metadata: Metadata = {
     "Best Extensions for Instagram - Enhance Your Social Media Experience",
   description:
     "Explore the best Extensions for Instagram with our comprehensive navigation guide. Enhance your Instagram experience with powerful tools. No registration required, free to use, and compatible with all browsers. Start enhancing now!",
-};
+    alternates: {
+      canonical: "https://instagramtomp4.com/extensions-for-instagram",
+    },
+  };
 
 const featuredSites = [
   //Featured Instagram to MP4 Tool Categories

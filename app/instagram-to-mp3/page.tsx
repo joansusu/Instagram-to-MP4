@@ -17,7 +17,11 @@ export const metadata: Metadata = {
     "Best Instagram to MP3 Converter Tools - Your Ultimate Navigation Guide",
   description:
     "Explore the best Instagram to MP3 converter tools with our comprehensive navigation guide. Find reliable websites to convert Instagram videos to high-quality MP3 files easily. No registration required, free to use, and compatible with all devices. Start converting now!",
-};
+
+    alternates: {
+      canonical: "https://instagramtomp4.com/instagram-to-mp3",
+    },
+  };
 
 const featuredSites = [
   //Featured Instagram to MP4 Tool Categories
