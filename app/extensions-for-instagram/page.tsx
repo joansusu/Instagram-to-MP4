@@ -1,5 +1,4 @@
-import { Video, Film, Instagram, Image } from "lucide-react";
-import Link from "next/link";
+
 import { FeaturedTools } from "@/components/FeaturedTools";
 import {
   Accordion,
@@ -11,7 +10,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 import { featuredTools } from "@/lib/featuredTools";
 import type { Metadata } from "next";
-
+import FourCategories from "@/components/FourCategories";
 export const metadata: Metadata = {
   title:
     "Best Extensions for Instagram - Enhance Your Social Media Experience",
@@ -22,33 +21,7 @@ export const metadata: Metadata = {
     },
   };
 
-const featuredSites = [
-  //Featured Instagram to MP4 Tool Categories
-  {
-    title: "Instagram Videos to MP4",
-    description: "Convert and download Instagram videos to MP4 format",
-    icon: Video,
-    href: "#",
-  },
-  {
-    title: "Instagram Reels to MP4",
-    description: "Transform Instagram Reels into downloadable MP4 files",
-    icon: Film,
-    href: "#",
-  },
-  {
-    title: "Instagram Stories to MP4",
-    description: "Save Instagram Stories as MP4 videos easily",
-    icon: Instagram,
-    href: "#",
-  },
-  {
-    title: "Instagram Photos",
-    description: "Download Instagram photos in high resolution",
-    icon: Image,
-    href: "#",
-  },
-];
+
 
 const extensionsSites = featuredTools.filter((site) =>
   site.tag.includes("extensions for instagram")
@@ -85,27 +58,7 @@ export default function ExtensionsPage() {
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           {/* Our Services Section */}
-          <section className="mb-16">
-            <h2 className="text-3xl font-semibold mb-8 text-center">
-              Featured Instagram to MP4 Tool Categories
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {featuredSites.map((feature) => (
-                <Link
-                  key={feature.title}
-                  href={feature.href}
-                  className="p-6 border rounded-lg hover:shadow-lg transition-shadow">
-                  <feature.icon className="w-12 h-12 mx-auto mb-4 text-blue-600" />
-                  <h3 className="text-xl font-semibold mb-2 text-center">
-                    {feature.title}
-                  </h3>
-                  <p className="text-gray-600 text-center">
-                    {feature.description}
-                  </p>
-                </Link>
-              ))}
-            </div>
-          </section>
+          <FourCategories excludeWords="Extensions For Instagram"/>
 
           <section className="bg-gray-50 rounded-lg p-8 mb-16">
             <h2 className="text-3xl font-semibold mb-6 text-center">
