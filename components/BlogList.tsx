@@ -23,9 +23,12 @@ interface BlogListProps {
 }
 
 export default function BlogList({ blogs }: BlogListProps) {
+
+  const newBlogs= blogs.sort((a,b)=>b.date.localeCompare(a.date));
+
   return (
     <div className="max-w-3xl mx-auto space-y-6">
-      {blogs.map((post) => (
+      {newBlogs.map((post) => (
         <Card key={post.id}>
           <CardHeader>
             <CardTitle>{post.title}</CardTitle>

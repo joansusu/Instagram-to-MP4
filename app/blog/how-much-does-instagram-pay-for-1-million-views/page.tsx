@@ -32,7 +32,16 @@ export default function GuidePage() {
         <p>Getting paid on Instagram might require some creativity, but it's definitely possible. With dedication and strategy, you can turn those million views into cash, even if Instagram doesn’t pay directly for them.</p>
         <p>Ready to learn how you can transform your Instagram presence into a money-maker? Keep reading!</p>
         <h2>Understanding Instagram's Payment Structure</h2>
-        {/* <p><iframe title="f0AFELbaGAo" src="https://www.youtube.com/embed/f0AFELbaGAo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <iframe
+          title="f0AFELbaGAo"
+          src="https://www.youtube.com/embed/f0AFELbaGAo"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"
+          style={{
+            width: '100%',
+            maxWidth: '100%',
+          }}
+        ></iframe>
         <p>Instagram's payment system is not straightforward. Payments depend on various factors, like the type of program you're involved in, and other metrics. Below, you'll find specific details about how these payments are made to creators.</p>
         <h3>Instagram Monetization Programs</h3>
         <p>Instagram provides several ways for creators to earn money. One of these is through its <strong>Reels Play Bonus Program</strong>, which allows creators to earn based on the number of views on their Instagram Reels.</p>
@@ -44,7 +53,11 @@ export default function GuidePage() {
         <p><strong>Sponsored posts</strong> are a common way to make money, where brands pay for promotions of their products on your Instagram account. The amount can vary widely, based on your number of followers and engagement rate.</p>
         <p>Besides, the <strong>pay for views</strong> approach isn't applicable in a straightforward sense. Instead, earnings often come from a mix of multiple avenues, including paid partnerships. If you're using Instagram Reels or Stories, your income isn't tied solely to views or likes but to broader metrics like audience interaction.</p>
         <h2>How Much Does Instagram Actually Pay for 1 Million Views?</h2>
-        {/* <p><iframe title="M3ZjGAANjMA" src="https://www.youtube.com/embed/M3ZjGAANjMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <iframe title="M3ZjGAANjMA" src="https://www.youtube.com/embed/M3ZjGAANjMA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen" style={{
+          width: '100%',
+          maxWidth: '100%',
+        }} >
+        </iframe>
         <p>Instagram doesn’t pay creators directly for reaching 1 million views. Instead, earnings rely on factors like content type and popularity. It's important to know that brands may still find value in collaborating with you based on your engagement rates and influence.</p>
         <h3>Real Payment Rates by Content Type</h3>
         <p>Instagram itself does not pay you directly for views like YouTube. Instead, payment often comes through brand collaborations or ads. You might earn money on Instagram from sponsored posts, affiliate marketing, or selling products.</p>
