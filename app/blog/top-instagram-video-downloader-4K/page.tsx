@@ -32,7 +32,17 @@ export default function GuidePage() {
         <p>With these downloaders, you can save videos, stories, and reels directly to your device.</p>
         <p>This flexibility gives you the freedom to revisit key moments or share content without needing an internet connection.</p>
         <h2>SaveFromNet</h2>
-        {/* <p><iframe title="QUolZnAoV9c" src="https://www.youtube.com/embed/QUolZnAoV9c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="QUolZnAoV9c"
+            src="https://www.youtube.com/embed/QUolZnAoV9c"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>SaveFromNet is a <a href="https://instagramtomp4.com/privacy-policy">reliable option</a> for downloading videos from Instagram.</p>
         <p>This online tool allows you to save videos without needing to register or install any software.</p>
         <p>To use SaveFromNet, simply copy the link of the Instagram video you want to download.</p>
@@ -44,7 +54,6 @@ export default function GuidePage() {
         <p>Overall, SaveFromNet provides a straightforward and <a href="https://instagramtomp4.com/terms-of-service">efficient way</a> to download Instagram videos for free.</p>
         <p>It’s an excellent tool for those who want to enjoy their favorite content offline.</p>
         <h2>4K Video Downloader</h2>
-        {/* <p><iframe title="tSQSPUFpCkI" src="https://www.youtube.com/embed/tSQSPUFpCkI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
         <p>4K Video Downloader is a reliable tool for downloading Instagram videos.</p>
         <p>It allows you to save videos in their original quality, supporting formats like MP4.</p>
         <p>You can download various types of content, including regular posts, stories, and IGTV videos.</p>
@@ -55,7 +64,17 @@ export default function GuidePage() {
         <p>Whether you need videos for inspiration or personal enjoyment, this downloader provides a seamless experience.</p>
         <p>You can enjoy your selected videos anytime without relying on a stable internet connection.</p>
         <h2>3) InstaDownloader</h2>
-        {/* <p><iframe title="ALUxuNSRpMM" src="https://www.youtube.com/embed/ALUxuNSRpMM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="ALUxuNSRpMM"
+            src="https://www.youtube.com/embed/ALUxuNSRpMM"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>InstaDownloader is a straightforward tool for downloading Instagram videos.</p>
         <p>It allows you to save videos, stories, and IGTV content easily to your device. You don’t need to install any software to use it.</p>
         <p>To get started, find the video you want on Instagram and copy its link.</p>
@@ -66,7 +85,16 @@ export default function GuidePage() {
         <p>For those looking to download content from Instagram, InstaDownloader is a reliable choice.</p>
         <p>It offers a simple and efficient way to keep your favorite videos offline.</p>
         <h2>4) KeepVid</h2>
-        {/* <p><iframe title="vud38pPnvTY" src="https://www.youtube.com/embed/vud38pPnvTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="vud38pPnvTY" src="https://www.youtube.com/embed/vud38pPnvTY"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>KeepVid is a popular tool for downloading Instagram videos.</p>
         <p>It offers a straightforward way to save videos directly onto your device.</p>
         <p>To use KeepVid, visit the website and copy the link of the Instagram video you want.</p>
@@ -78,7 +106,17 @@ export default function GuidePage() {
         <p>The site is user-friendly, making it suitable for people who may not be tech-savvy.</p>
         <p>With just a few clicks, you can have your favorite videos saved for offline viewing.</p>
         <h2>5) VideoHunter</h2>
-        {/* <p><iframe title="OZioSYSqsHQ" src="https://www.youtube.com/embed/OZioSYSqsHQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="OZioSYSqsHQ"
+            src="https://www.youtube.com/embed/OZioSYSqsHQ"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>VideoHunter is a powerful tool for downloading Instagram videos.</p>
         <p>You can use it to save videos easily from the platform without any hassle.</p>
         <p>The software supports various formats, including MP4 and MP3, allowing you to choose how you want to store your videos.</p>
@@ -90,7 +128,17 @@ export default function GuidePage() {
         <p>For those who want to enjoy their favorite videos offline, VideoHunter offers a reliable solution.</p>
         <p>You can access it through various platforms, including Windows, ensuring convenience.</p>
         <h2>6) SnapDownloader</h2>
-        {/* <p><iframe title="dKaF6f26-fc" src="https://www.youtube.com/embed/dKaF6f26-fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="dKaF6f26-fc"
+            src="https://www.youtube.com/embed/dKaF6f26-fc"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>SnapDownloader is a popular choice for downloading videos from Instagram.</p>
         <p>It supports various formats, including MP4 and MP3, allowing you to choose what works best for you.</p>
         <p>With SnapDownloader, you can download videos in high resolutions, even up to 8K. This feature ensures you get the best quality for your saved content.</p>
@@ -100,7 +148,17 @@ export default function GuidePage() {
         <p>For those interested in a reliable downloader, SnapDownloader stands out as a solid option.</p>
         <p>You can find more about it and download the app from <a href="https://www.filehorse.com/download-snapdownloader/92891/">FileHorse</a>.</p>
         <h2>YMP4</h2>
-        {/* <p><iframe title="MaSySKV15Rk" src="https://www.youtube.com/embed/MaSySKV15Rk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="MaSySKV15Rk"
+            src="https://www.youtube.com/embed/MaSySKV15Rk"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>YMP4 is a straightforward online tool designed for downloading Instagram videos.</p>
         <p>You can easily access this platform without the need for any software installation.</p>
         <p>To use YMP4, simply copy the link to the Instagram video you want to download.</p>
@@ -109,7 +167,17 @@ export default function GuidePage() {
         <p>It works on various devices, making it convenient for you to save videos on your mobile or computer.</p>
         <p>YMP4 is user-friendly, focusing on a smooth experience. You can quickly learn how to navigate the site, making it accessible for everyone.</p>
         <h2>Getfvid</h2>
-        {/* <p><iframe title="1DWqzb6yDpY" src="https://www.youtube.com/embed/1DWqzb6yDpY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="1DWqzb6yDpY"
+            src="https://www.youtube.com/embed/1DWqzb6yDpY"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>Getfvid is a simple tool for downloading Instagram videos.</p>
         <p>You can use it without any complicated software. It works on devices like phones and computers.</p>
         <p>To download a video, just copy the link from Instagram.</p>
@@ -128,7 +196,17 @@ export default function GuidePage() {
         <p>With Inflact, you maintain your privacy since downloading is anonymous, meaning you don’t need to log in to Instagram to use it.</p>
         <p>The platform supports saving content on multiple devices, so whether you use a smartphone, tablet, or computer, you'll have no trouble at all.</p>
         <h2>10) FastSave</h2>
-        {/* <p><iframe title="4HaRFKXdhDc" src="https://www.youtube.com/embed/4HaRFKXdhDc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="4HaRFKXdhDc"
+            src="https://www.youtube.com/embed/4HaRFKXdhDc"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>FastSave is an app designed to help you download videos, photos, and stories from Instagram easily. You can save your favorite content to your device with just one click.</p>
         <p>This tool is user-friendly. It allows you to browse Instagram like a mobile app, which makes navigation simple.</p>
         <p>You’ll find that it effectively keeps all the content you enjoy in one place.</p>
@@ -137,7 +215,17 @@ export default function GuidePage() {
         <p>You can find FastSave available on the <a href="https://chromewebstore.google.com/detail/fastsave/pnlphjjfielecalmmjjdhjjninkbjdod">Chrome Web Store</a> and in app stores for mobile devices.</p>
         <p>This makes it accessible for various users looking to enhance their Instagram experience.</p>
         <h2>Understanding Instagram Video Content</h2>
-        {/* <p><iframe title="EQzTJJU4H8s" src="https://www.youtube.com/embed/EQzTJJU4H8s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="EQzTJJU4H8s"
+            src="https://www.youtube.com/embed/EQzTJJU4H8s"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>Instagram videos are an essential part of the platform, offering different types for users to engage with. You can find short clips, longer formats, and even live sessions.</p>
         <p>Knowing the features and privacy options is key to maximizing your Instagram experience.</p>
         <h3>Key Features of Instagram Videos</h3>
@@ -154,7 +242,16 @@ export default function GuidePage() {
         <p>On a private account, only approved followers can see your videos. This setting provides better control but limits your audience's reach.</p>
         <p>Always consider how these settings align with your goals and the audience you want to engage. Understanding privacy settings helps you manage your content wisely.</p>
         <h2>Legal and Ethical Considerations</h2>
-        {/* <p><iframe title="D2q_yv_vMv8" src="https://www.youtube.com/embed/D2q_yv_vMv8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="D2q_yv_vMv8" src="https://www.youtube.com/embed/D2q_yv_vMv8"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>When using an Instagram video downloader, it's important to navigate the legal and ethical landscape carefully. Adhering to Instagram’s terms of service and following ethical guidelines will help ensure you respect content creators' rights.</p>
         <h3>Compliance with Instagram's Terms</h3>
         <p>Instagram has strict rules about how users can handle content on its platform. You need to get explicit permission from the content owner before you can download any videos. Violating these rules can lead to account suspension or legal action.</p>
@@ -165,7 +262,16 @@ export default function GuidePage() {
         <p>You should also consider the purpose of your download. If it’s for personal use, it may seem harmless. However, sharing downloaded videos publicly without consent could be unfair to the original creator.</p>
         <p>Always strive to act in a way that promotes fairness and respect within the digital community.</p>
         <h2>Frequently Asked Questions</h2>
-        {/* <p><iframe title="e-xnTUDmla4" src="https://www.youtube.com/embed/e-xnTUDmla4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p> */}
+        <div className="relative w-full overflow-hidden rounded-lg shadow-xl aspect-video">
+          <iframe
+            title="e-xnTUDmla4" src="https://www.youtube.com/embed/e-xnTUDmla4"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          />
+        </div>
         <p>If you want to download videos from Instagram, knowing the right methods and tools can make the process easy. Below are some common questions that many users have regarding downloading videos from Instagram.</p>
         <h3>How can I save videos from Instagram stories?</h3>
         <p>To save videos from Instagram stories, you can use a third-party app or website designed for this purpose.</p>
