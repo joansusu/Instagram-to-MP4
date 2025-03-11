@@ -20,7 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head><meta name="google-adsense-account" content="ca-pub-1101888138551369" /></head>
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-1101888138551369" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1101888138551369"
+          crossOrigin="anonymous"></script>
+      </head>
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Navigation />
         <main className="flex-grow">{children}</main>
