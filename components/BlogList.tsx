@@ -20,9 +20,10 @@ interface Blog {
 
 interface BlogListProps {
   blogs: Blog[];
+  currentLang: string;
 }
 
-export default function BlogList({ blogs }: BlogListProps) {
+export default function BlogList({ blogs, currentLang }: BlogListProps) {
 
   const newBlogs= blogs.sort((a,b)=>b.date.localeCompare(a.date));
 
@@ -77,7 +78,7 @@ export default function BlogList({ blogs }: BlogListProps) {
                   </Button>
                 </div>
                 <Button asChild>
-                  <Link href={`/blog/${post.slug}`}>
+                  <Link href={`/${currentLang}/blog/${post.slug}`}>
                     Read More <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>

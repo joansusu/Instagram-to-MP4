@@ -4,18 +4,32 @@ import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 import BlogCard from "@/components/BlogCard";
+import { i18n } from "@/i18n.config";
+import { generateHreflang } from "@/lib/generateHreflangs";
 
-export const metadata: Metadata = {
-  title:
-    "How Much Does Instagram Pay for 1 Million Views? Insights & Tips",
-  description:
-    "Unlock the secrets of Instagram monetization! Discover how much creators earn for 1 million views and gain tips to maximize your earnings.",
-  alternates: {
-    canonical: "https://instagramtomp4.com/blog/how-much-does-instagram-pay-for-1-million-views",
-  },
-};
+export async function generateStaticParams() {
+  return i18n.locales.map((lang) => ({
+    lang,
+  }));
+}
 
-export default function GuidePage() {
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: string };
+}): Promise<Metadata> {
+  return {
+    title: "How Much Does Instagram Pay for 1 Million Views? Insights & Tips",
+    description: "Unlock the secrets of Instagram monetization! Discover how much creators earn for 1 million views and gain tips to maximize your earnings.",
+    alternates: generateHreflang(lang, "blog/how-much-does-instagram-pay-for-1-million-views"),
+  };
+}
+
+export default function GuidePage({
+  params: { lang },
+}: {
+  params: { lang: string };
+}) {
   const post = {
     title: "How Much Does Instagram Pay for 1 Million Views? Insights & Tips",
     date: "2025-03-02",
@@ -251,7 +265,7 @@ export default function GuidePage() {
     <div className="container mx-auto py-12">
       <div className="max-w-3xl mx-auto">
         <Button variant="ghost" asChild className="mb-6">
-          <Link href="/blog">
+          <Link href={`/${lang}/blog`}>
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Blog
           </Link>
@@ -260,7 +274,7 @@ export default function GuidePage() {
         <BlogCard post={post} />
 
         <Button variant="ghost" asChild className="mb-6">
-          <Link href="/blog">
+          <Link href={`/${lang}/blog`}>
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Blog
           </Link>

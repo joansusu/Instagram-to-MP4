@@ -39,7 +39,7 @@ export default async function BlogPage({
         </p>
       </div>
 
-     <BlogList blogs={blogs}/>
+     <BlogList blogs={blogs} currentLang={lang}/>
 
     </div>
   )

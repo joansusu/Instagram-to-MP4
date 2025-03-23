@@ -4,18 +4,32 @@ import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 import BlogCard from "@/components/BlogCard";
+import { i18n } from "@/i18n.config";
+import { generateHreflang } from "@/lib/generateHreflangs";
 
-export const metadata: Metadata = {
-  title:
-    "Top 10 Download Instagram Videos in 4K | Instagram Video Downloader Online",
-  description:
-    "Effortlessly download Instagram videos in stunning 4K quality with our Instagram Video Downloader. Save reels, IGTV, and more as MP4 files online!",
-  alternates: {
-    canonical: "https://instagramtomp4.com/blog/top-instagram-video-downloader-4K",
-  },
-};
+export async function generateStaticParams() {
+  return i18n.locales.map((lang) => ({
+    lang,
+  }));
+}
 
-export default function GuidePage() {
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: string };
+}): Promise<Metadata> {
+  return {
+    title: "Top 10 Download Instagram Videos in 4K | Instagram Video Downloader Online",
+    description: "Effortlessly download Instagram videos in stunning 4K quality with our Instagram Video Downloader. Save reels, IGTV, and more as MP4 files online!",
+    alternates: generateHreflang(lang, "blog/top-instagram-video-downloader-4K"),
+  };
+}
+
+export default function GuidePage({
+  params: { lang },
+}: {
+  params: { lang: string };
+}) {
   const post = {
     title: "Top 10 Download Instagram Videos in 4K | Instagram Video Downloader Online",
     date: "2025-02-11",
@@ -301,7 +315,7 @@ export default function GuidePage() {
     <div className="container mx-auto py-12">
       <div className="max-w-3xl mx-auto">
         <Button variant="ghost" asChild className="mb-6">
-          <Link href="/blog">
+          <Link href={`/${lang}/blog`}>
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Blog
           </Link>
@@ -310,7 +324,7 @@ export default function GuidePage() {
         <BlogCard post={post} />
 
         <Button variant="ghost" asChild className="mb-6">
-          <Link href="/blog">
+          <Link href={`/${lang}/blog`}>
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Blog
           </Link>
