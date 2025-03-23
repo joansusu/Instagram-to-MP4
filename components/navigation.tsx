@@ -3,26 +3,26 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Menu } from "lucide-react"
-
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { LanguageSwitcher } from "@/components/LanguageSwitcher"
 
-const navItems = [
-  { href: "/instagram-to-mp3", label: "Instagram to MP3" },
-  { href: "/instagram-reel-downloader", label: "Instagram Reel Downloader" },
-  { href: "/extensions-for-instagram", label: "Extensions for Instagram" },
-  { href: "/instagram-name-generator", label: "Instagram Name Generator" },
-  { href: "/blog", label: "Blog" },
-]
-
-export function Navigation() {
+export function Navigation({ currentLang, dict }: { currentLang: string; dict: any }) {
   const [isOpen, setIsOpen] = useState(false)
+
+  const navItems = [
+    { href: `/${currentLang}/instagram-to-mp3`, label: `${dict.nav.n1}` },
+    { href: `/${currentLang}/instagram-reel-downloader`, label: `${dict.nav.n2}` },
+    { href: `/${currentLang}/extensions-for-instagram`, label: `${dict.nav.n3}` },
+    { href: `/${currentLang}/instagram-name-generator`, label: `${dict.nav.n4}` },
+    { href: `/${currentLang}/blog`, label: `${dict.nav.n5}` },
+  ]
 
   return (
     <nav className="bg-blue-500 py-4">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-white text-2xl font-bold">
+          <Link href={`/${currentLang}`} className="text-white text-2xl font-bold">
             InstagramToMP4
           </Link>
           <div className="hidden md:flex space-x-2">
@@ -35,6 +35,7 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
+            <LanguageSwitcher currentLang={currentLang} />
           </div>
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden">
@@ -56,6 +57,7 @@ export function Navigation() {
                   </Link>
                 ))}
               </nav>
+              <LanguageSwitcher currentLang={currentLang} />
             </SheetContent>
           </Sheet>
         </div>

@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "n1": "Instagram转MP3",
+    "n2": "Instagram Reels下载器",
+    "n3": "Instagram扩展程序",
+    "n4": "Instagram用户名生成器",
+    "n5": "博客"
+  },
+  "footer": {
+    "about": "关于我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "home": {
+    "title": "Instagram视频下载工具 | Instagram视频转换最佳方式",
+    "description": "发现最佳Instagram视频转换工具。精选列表让您轻松下载并将Instagram视频转换为MP4格式。在这里找到最好的Instagram视频下载器！",
+    "ftdescription": "精选最佳Instagram视频下载器和转换器",
+    "heroTitle": "Instagram视频下载工具导航",
+    "heroSubtitle": "轻松将Instagram视频转换为MP4",
+    "heroText": "欢迎使用InstagramToMP4导航 - 寻找最佳Instagram视频转换和下载工具的一站式资源。对于想要保存Instagram视频或转换为MP4格式的用户来说再合适不过了！"
+  },
+  "instagramToMP3": {
+    "title": "最佳Instagram转MP3转换工具 - 终极导航指南",
+    "description": "通过全面的导航指南探索最佳Instagram转MP3转换工具。在可靠的网站上轻松将Instagram视频转换为高质量MP3文件。无需注册，免费使用，支持所有设备。立即开始转换！",
+    "ftdescription": "精选最佳Instagram视频下载器和转换器",
+    "heroTitle": "Instagram转MP3下载工具导航",
+    "heroText": "通过提供Instagram转MP3转换工具的精选网站提升您的社交媒体体验。作为社交媒体下载工具的专业导航网站，我们为您介绍最可靠的网站，让您轻松将Instagram视频转换为高质量MP3文件。无论您是内容创作者、音乐爱好者，还是想要保存Instagram音频的用户，都能准确轻松地找到适合您的工具。"
+  },
+  "reelpage": {
+    "title": "最佳Instagram Reels下载工具 - 终极导航指南",
+    "description": "通过全面的导航指南发现最佳Instagram Reels下载工具。轻松保存高质量Instagram Reels。无需注册，免费使用，支持所有设备。立即开始下载！",
+    "ftdescription": "精选最佳Instagram视频下载器和转换器",
+    "heroTitle": "Instagram Reels下载器",
+    "heroText": "通过精选的Instagram Reels下载工具提升您的社交媒体体验。作为社交媒体下载工具的专业导航网站，我们为您介绍最可靠的网站，让您轻松下载高质量Instagram Reels。无论您是内容创作者、社交媒体爱好者，还是想要保存Instagram Reels的用户，都能准确轻松地找到适合您的工具。"
+  },
+  "extensionspage": {
+    "title": "最佳Instagram扩展程序 - 提升社交媒体体验",
+    "description": "通过全面的导航指南探索最佳Instagram扩展程序。使用强大的工具提升Instagram体验。无需注册，免费使用，支持所有浏览器。立即开始使用扩展程序！",
+    "ftdescription": "精选最佳Instagram扩展程序",
+    "heroTitle": "Instagram扩展程序",
+    "heroText": "通过精选的Instagram扩展程序改变您的Instagram体验。作为社交媒体下载工具的专业导航网站，我们为您介绍最可靠的浏览器扩展程序，让您轻松提升Instagram使用体验。无论您是内容创作者、社交媒体爱好者，还是想要优化Instagram使用的用户，都能准确轻松地找到适合您的工具。"
+  },
+  "nameGeneratorPage": {
+    "title": "免费Instagram用户名生成器 – 立即创建独特用户名",
+    "description": "使用免费Instagram用户名生成器轻松创建独特的Instagram用户名。发现新的用户名创意，从今天开始脱颖而出！",
+    "heroTitle": "Instagram用户名生成器",
+    "heroText": "欢迎使用Instagram用户名生成器。这是一个能在几秒钟内创建独特、易记且可用的用户名的终极工具。无论是个人账户还是品牌账户，生成器都会将您的输入与高级算法相结合，为您提供符合您风格的完美用户名。",
+    "keyFeatures": {
+      "title": "Instagram用户名生成器的主要特点：",
+      "content": "智能算法：使用高级AI算法生成独特且可用的用户名。自定义选项：输入姓名、品牌、关键词，从游戏、专业、创意等类别中选择。即时建议：立即获取可用的用户名创意。数字选项：选择是否在用户名中包含数字或符号以增加独特性。"
+    },
+    "benefits": {
+      "title": "Instagram用户名生成器的优势：",
+      "timeSaving": {
+        "title": "节省时间",
+        "content": "无需数小时的头脑风暴。只需几次点击即可获得创意用户名创意。"
+      },
+      "personalization": {
+        "title": "个性化",
+        "content": "轻松根据品牌或个人风格定制Instagram用户名。"
+      },
+      "memorability": {
+        "title": "易记性",
+        "content": "每个用户名都设计得易于记忆和发音，是建立强大Instagram存在感的关键。"
+      },
+      "versatility": {
+        "title": "多功能性",
+        "content": "适用于各种领域和类别，确保用户名能与目标受众产生共鸣。"
+      }
+    },
+    "technicalSpecs": {
+      "title": "技术规格",
+      "intro": "Instagram用户名生成器使用智能算法，根据您的偏好生成独特的用户名建议：",
+      "list": {
+        "item1": "用户输入：接受姓名、品牌、关键词。",
+        "item2": "算法：使用智能和自适应算法进行实时用户名生成。",
+        "item3": "决定是否在用户名中包含数字",
+        "item4": "输出：提供独特且可用的用户名列表。"
+      },
+      "outro": "每个生成的用户名都经过设计，在保持可读性和易记性的同时确保独特性，是建立Instagram存在感的关键要素。"
+    },
+    "uniqueSellingPoints": {
+      "title": "独特优势",
+      "easeOfUse": {
+        "title": "使用便捷",
+        "content": "简单的界面，只需几次点击即可生成和复制用户名。"
+      },
+      "creativityBoost": {
+        "title": "提升创意",
+        "content": "通过多样化的单词、数字和特殊字符组合获得灵感。"
+      },
+      "seoFriendly": {
+        "title": "SEO友好",
+        "content": "通过独特且利基相关的用户名提升Instagram SEO。"
+      },
+      "conclusion": "无论是创建新的Instagram账户还是更改现有账户的品牌，Instagram用户名生成器都是创建能捕捉您本质并吸引受众的醒目用户名的可靠工具。立即开始使用，提升您的Instagram存在感！"
+    }
+  },
+  "blogPage": {
+    "title": "博客 - InstagramToMP4",
+    "description": "发现最佳Instagram视频转换工具。精选列表让您轻松下载并将Instagram视频转换为MP4格式。在这里找到最好的Instagram视频下载器！",
+    "h1": "博客",
+    "p": "发现Instagram媒体下载和转换的终极指南。使用2025年最新工具保持领先。点击了解更多！"
+  },
+  "fourCategories": {
+    "title": "精选Instagram工具类别",
+    "title1": "Instagram转MP4",
+    "description1": "Instagram视频下载工具 | Instagram视频转换最佳方式",
+    "title2": "Instagram转MP3",
+    "description2": "最佳Instagram转MP3转换工具",
+    "title3": "Instagram Reels下载器",
+    "description3": "最佳Instagram Reels下载工具 - 终极导航指南",
+    "title4": "Instagram扩展程序",
+    "description4": "通过全面的导航指南探索最佳Instagram扩展程序",
+    "title5": "Instagram用户名生成器",
+    "description5": "免费Instagram用户名生成器 – 立即创建独特用户名"
+  },
+  "featuredTools": {
+    "title": "精选工具",
+    "showLess": "显示更少",
+    "viewMore": "查看更多"
+  },
+  "whyChoose": {
+    "title": "为什么选择Instagram转MP4工具导航？",
+    "curatedTitle": "精选内容：",
+    "curatedText": "精选最佳Instagram转MP4转换工具。",
+    "comprehensiveTitle": "全面覆盖",
+    "comprehensiveText": "每种转换方法的详细说明和提示。",
+    "regularUpdatesTitle": "定期更新：",
+    "regularUpdatesText": "持续更新Instagram视频下载器列表。",
+    "freeAccessTitle": "免费访问：",
+    "freeAccessText": "无需注册 - 立即开始将Instagram转换为MP4！",
+    "multiPlatformTitle": "多平台支持：",
+    "multiPlatformText": "支持所有设备 - 智能手机、平板电脑、PC。"
+  },
+  "howToConvert": {
+    "title": "如何将Instagram视频转换为MP4",
+    "browseTitle": "浏览",
+    "browseText": "浏览Instagram转MP4下载工具列表",
+    "readTitle": "阅读",
+    "readText": "查看每个Instagram视频转换器的说明和用户评价",
+    "chooseTitle": "选择",
+    "chooseText": "选择您喜欢的Instagram转MP4工具",
+    "convertingTitle": "转换",
+    "convertingText": "点击链接开始下载Instagram视频并转换为MP4"
+  },
+  "testimonials": {
+    "title": "用户评价",
+    "quote1": "多亏了Instagram转MP4导航，我在几分钟内就找到了完美的Instagram转MP4转换器！",
+    "author1": "马克 R",
+    "quote2": "这个网站为我节省了几个小时的搜索时间。这里的Instagram视频下载器可靠且快速！",
+    "author2": "艾米丽 S",
+    "quote3": "作为内容创作者，我完全依赖InstaToolNav满足Instagram转MP4转换需求。这是一个改变游戏规则的工具！",
+    "author3": "亚历克斯 T"
+  },
+  "faq": {
+    "title": "常见问题",
+    "question1": "这些Instagram转MP4工具安全吗？",
+    "answer1": "我们会检查所有工具的安全性，但下载时仍需谨慎。",
+    "question2": "这些Instagram视频转换器是免费的吗？",
+    "answer2": "许多Instagram转MP4工具是免费的，但有些提供高级功能。",
+    "question3": "Instagram转MP4工具列表多久更新一次？",
+    "answer3": "我们每周检查并更新列表，确保所有Instagram视频下载器正常工作。"
+  },
+  "cat": {
+    "title": "立即探索Instagram转MP4工具！",
+    "text": "注意：将Instagram视频转换为MP4时，请务必遵守版权法。"
+  },
+  "privacyPolicy": {
+    "title": "隐私政策",
+    "intro": "您的互联网隐私对InstagramToMP4网站非常重要。本隐私政策旨在告知您访问InstagramToMP4网站时获取的信息、信息的使用和披露方式、您如何控制私人信息的使用和披露，以及如何保护这些信息。",
+    "notice": "请花点时间熟悉我们的隐私实践，如果您有任何问题，请与我们联系。",
+    "whatWeCollect": {
+      "title": "我们收集什么信息？",
+      "personal": {
+        "title": "1. 个人身份信息",
+        "content": "我们可能通过多种方式从用户那里收集个人身份信息，例如当用户访问我们的网站并填写与我们在网站上提供的其他活动、服务、功能或资源相关的表单时。用户可以匿名访问我们的网站。我们只会在用户自愿向我们提交此类信息时收集个人身份信息，用户可以随时拒绝提供个人身份信息，但这可能会阻止他们参与某些与网站相关的活动。"
+      },
+      "nonPersonal": {
+        "title": "2. 非个人身份信息",
+        "content": "每当用户与我们的网站互动时，我们可能会收集关于用户的非个人身份信息。非个人身份信息可能包括浏览器名称、计算机类型和用户连接到我们网站的技术信息，如操作系统和使用的互联网服务提供商以及其他类似信息。"
+      }
+    },
+    "tracking": {
+      "title": "跟踪技术和Cookie",
+      "intro": "我们使用Cookie和类似的跟踪技术来跟踪我们服务的活动并存储某些信息。使用的跟踪技术包括信标、标签和脚本，用于收集和跟踪信息并改进和分析我们的服务。",
+      "browserNotice": "您可以指示浏览器拒绝所有Cookie或在发送Cookie时提示。但是，如果您不接受Cookie，您可能无法使用我们服务的某些部分。",
+      "types": "Cookie可以是“持久性”或“会话”Cookie。持久性Cookie在您离线时保留在您的个人计算机或移动设备上，而会话Cookie在您关闭网页浏览器时立即删除。",
+      "purpose": "我们使用会话和持久性Cookie用于以下目的：",
+      "list": {
+        "necessary": "必要/基本Cookie：会话Cookie这些Cookie对于通过网站向您提供服务和使您能够使用其某些功能至关重要。",
+        "policy": "Cookie政策/通知接受Cookie：持久性Cookie这些Cookie用于识别用户是否接受了网站上的Cookie使用。",
+        "functionality": "功能Cookie：持久性Cookie这些Cookie允许我们记住您在使用网站时做出的选择，如语言偏好。",
+        "tracking": "跟踪和性能Cookie：持久性Cookie这些Cookie用于跟踪有关网站流量和用户如何使用网站的信息。",
+        "targeting": "定向和广告Cookie：持久性Cookie第三方目的：这些Cookie跟踪您的浏览习惯，使我们能够向您展示更可能感兴趣的广告。"
+      }
+    },
+    "useOfInfo": {
+      "title": "我们如何处理收集的信息？",
+      "intro": "网站可能将个人数据用于以下目的：",
+      "list": {
+        "contact": "联系您：通过电子邮件或其他等效的电子通信方式与您联系。",
+        "news": "向您提供新闻、特别优惠和关于我们提供的其他服务和活动的一般信息，这些信息与您查询的内容类似，除非您选择不接收此类信息。",
+        "requests": "管理您的请求：处理和管理您对我们的请求。"
+      }
+    },
+    "retention": {
+      "title": "个人数据保留",
+      "content": "InstagramToMP4网站仅会在本隐私政策所述目的所需的期限内保留您的个人数据。我们将保留和使用您的个人数据，以遵守我们的法律义务、解决争议并执行我们的法律协议和政策。"
+    },
+    "disclosure": {
+      "title": "个人数据披露",
+      "list": {
+        "business": "商业交易：如果InstagramToMP4参与合并、收购或资产出售，您的个人数据可能会被转移。",
+        "law": "执法：在某些情况下，如果法律要求或应公共当局的有效请求，InstagramToMP4可能需要披露您的个人数据。",
+        "legal": "其他法律要求：遵守法律义务，防止或调查与服务相关的可能的违法行为，防止法律责任，保护您的个人数据安全。"
+      }
+    },
+    "security": {
+      "title": "安全",
+      "content": "未经当事人事先同意，我们不会向任何第三方出售或交换用户自愿在我们的网站上提供的任何可识别信息。但是，我们可能会共享一些用户信息以满足您的需求。我们网站用户提供的任何信息都会被谨慎和安全地保管，除了本隐私政策中指定的用途、限于特定网站的任何政策，或您明确同意的方式外，不会以任何其他方式使用。"
+    },
+    "changes": {
+      "title": "隐私政策变更",
+      "content": "InstagramToMP4有权随时更新本隐私政策。我们将通过在本页面上发布新的隐私政策来通知您任何变更。建议您定期查看本隐私政策以了解任何变更，并了解我们如何帮助保护我们收集的个人信息。"
+    },
+    "acceptance": {
+      "title": "接受隐私政策",
+      "content": "您使用网站的任何页面即表示您无条件接受我们的隐私政策，并承诺遵守要求您采取行动的任何条款，基于本政策提供的内容。如果您不同意本政策的条款，您必须立即离开网站页面并停止使用。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "content": "如果您对本隐私政策有任何疑问，您可以通过访问网站上的联系我们页面与我们联系。"
+    }
+  },
+  "termsOfService": {
+    "title": "服务条款",
+    "introduction": {
+      "title": "介绍",
+      "content": "欢迎使用 InstagramToMP4。通过访问我们的网站 (https://instagramtomp4.com/)，您同意受这些服务条款、所有适用的法律法规的约束，并同意您有责任遵守任何适用的当地法律。如果您不同意这些条款中的任何一条，您将被禁止使用或访问本网站。"
+    },
+    "useLicense": {
+      "title": "使用许可",
+      "intro": "仅允许临时下载 InstagramToMP4 网站上的材料（信息或软件）的一份副本，仅用于个人、非商业性的临时查看。这是许可的授予，而不是所有权的转让，根据本许可，您不得：",
+      "restrictions": [
+        "修改或复制材料；",
+        "将材料用于任何商业目的，或用于任何公开展示（商业或非商业）；",
+        "尝试对 InstagramToMP4 网站上的任何软件进行反编译或反向工程；",
+        "从材料中删除任何版权或其他专有标记；或",
+        "将材料转让给他人或在任何其他服务器上镜像材料。"
+      ],
+      "termination": "如果您违反这些限制中的任何一条，本许可将自动终止，并且 InstagramToMP4 可以随时终止。在终止查看这些材料或终止本许可时，您必须销毁您拥有的任何下载的材料，无论是电子格式还是印刷格式。"
+    },
+    "disclaimer": {
+      "title": "免责声明",
+      "content": "InstagramToMP4 网站上的材料按原样提供。InstagramToMP4 不作任何明示或暗示的保证，特此否认和否定所有其他保证，包括但不限于对适销性、特定用途的适用性或不侵犯知识产权或其他权利侵犯的暗示保证或条件。"
+    },
+    "limitations": {
+      "title": "限制",
+      "content": "在任何情况下，InstagramToMP4 或其供应商都不对因使用或无法使用 InstagramToMP4 网站上的材料而造成的任何损害（包括但不限于数据或利润损失，或因业务中断造成的损失）承担责任，即使 InstagramToMP4 或 InstagramToMP4 授权代表已口头或书面通知可能发生此类损害。"
+    },
+    "accuracy": {
+      "title": "材料准确性",
+      "content": "InstagramToMP4 网站上出现的材料可能包含技术、排版或摄影错误。InstagramToMP4 不保证其网站上的任何材料准确、完整或最新。InstagramToMP4 可以随时对其网站上的材料进行更改，恕不另行通知。但是，InstagramToMP4 不承诺更新材料。"
+    },
+    "links": {
+      "title": "链接",
+      "content": "InstagramToMP4 尚未审查链接到其网站的所有网站，不对任何此类链接网站的内容负责。包含任何链接并不意味着 InstagramToMP4 认可该网站。使用任何此类链接网站的风险由用户自行承担。"
+    },
+    "modifications": {
+      "title": "修改",
+      "content": "InstagramToMP4 可以随时修改其网站的这些服务条款，恕不另行通知。使用本网站即表示您同意受这些服务条款的当前版本约束。"
+    },
+    "governingLaw": {
+      "title": "管辖法律",
+      "content": "这些条款和条件受美国法律管辖并按其解释，您不可撤销地服从该州或地点的法院的专属管辖权。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "content": "如果您对这些条款有任何疑问，请通过 info@instagramtomp4.com 联系我们。"
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "n1": "Instagram'dan MP3'e",
+    "n2": "Instagram Reels İndirici",
+    "n3": "Instagram Eklentileri",
+    "n4": "Instagram İsim Üreteci",
+    "n5": "Blog"
+  },
+  "footer": {
+    "about": "Hakkımızda",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları"
+  },
+  "home": {
+    "title": "Instagram Video İndirme Aracı | Instagram Videolarını Dönüştürmenin En İyi Yolu",
+    "description": "Instagram videolarını dönüştürmek için en iyi araçları keşfedin. Özenle seçilmiş listemiz, Instagram videolarını kolayca indirmenize ve MP4'e dönüştürmenize yardımcı olur. En iyi Instagram video indiricilerini burada bulun!",
+    "ftdescription": "En iyi Instagram video indirici ve dönüştürücülerinin seçimi",
+    "heroTitle": "Instagram İndirme Araçları Gezgini",
+    "heroSubtitle": "Instagram videolarını kolayca MP4'e dönüştürün",
+    "heroText": "InstagramToMP4 Navigator'a hoş geldiniz - Instagram videolarını dönüştürmek ve indirmek için en iyi araçları bulmanızı sağlayan benzersiz kaynağınız. Instagram videolarını kaydetmek veya MP4'e dönüştürmek isteyenler için mükemmel!"
+  },
+  "instagramToMP3": {
+    "title": "Instagram'dan MP3'e Dönüştürme Araçları - Kapsamlı Gezinme Rehberi",
+    "description": "Kapsamlı gezinme rehberimizle en iyi Instagram'dan MP3'e dönüştürme araçlarını keşfedin. Instagram videolarını güvenilir sitelerde yüksek kaliteli MP3 dosyalarına kolayca dönüştürün. Kayıt gerektirmez, ücretsiz kullanım, tüm cihazlarla uyumlu. Hemen dönüştürmeye başlayın!",
+    "ftdescription": "En iyi Instagram video indirici ve dönüştürücülerinin seçimi",
+    "heroTitle": "Instagram'dan MP3'e İndirme Araçları Gezgini",
+    "heroText": "Instagram'dan MP3'e dönüştürme araçları sunan seçilmiş sitelerle sosyal medya deneyiminizi geliştirin. Sosyal medya indirme araçları konusunda uzmanlaşmış bir gezinme sitesi olarak, Instagram videolarını yüksek kaliteli MP3 dosyalarına kolayca dönüştürmek için en iyi ve en güvenilir sitelere yönlendiriyoruz. İster içerik üreticisi, ister müzik tutkunu, ister Instagram'dan ses kaydetmeyi seven biri olun, gezginimiz size mükemmel aracı hızlı ve kolay bir şekilde bulmanızda yardımcı olur."
+  },
+  "reelpage": {
+    "title": "Instagram Reels İndirme Araçları - Kapsamlı Gezinme Rehberi",
+    "description": "Kapsamlı gezinme rehberimizle en iyi Instagram Reels indirme araçlarını keşfedin. Instagram Reels'leri yüksek kalitede kolayca kaydedin. Kayıt gerektirmez, ücretsiz kullanım, tüm cihazlarla uyumlu. Hemen indirmeye başlayın!",
+    "ftdescription": "En iyi Instagram video indirici ve dönüştürücülerinin seçimi",
+    "heroTitle": "Instagram Reels İndirici",
+    "heroText": "Instagram Reels indirme araçlarımızın profesyonel seçimiyle sosyal medya deneyiminizi geliştirin. Sosyal medya indirme araçları konusunda uzmanlaşmış bir gezinme sitesi olarak, Instagram Reels'leri yüksek kalitede kolayca indirmek için en iyi ve en güvenilir sitelere yönlendiriyoruz. İster içerik üreticisi, ister sosyal medya tutkunu, ister Instagram Reels'leri kaydetmeyi seven biri olun, gezginimiz size mükemmel aracı hızlı ve kolay bir şekilde bulmanızda yardımcı olur."
+  },
+  "extensionspage": {
+    "title": "En İyi Instagram Eklentileri - Sosyal Medya Deneyiminizi Geliştirin",
+    "description": "Kapsamlı gezinme rehberimizle en iyi Instagram eklentilerini keşfedin. Güçlü araçlarla Instagram deneyiminizi geliştirin. Kayıt gerektirmez, ücretsiz kullanım, tüm tarayıcılarla uyumlu. Hemen geliştirmeye başlayın!",
+    "ftdescription": "En iyi Instagram eklentilerinin seçimi",
+    "heroTitle": "Instagram Eklentileri",
+    "heroText": "Instagram eklentilerimizin profesyonel seçimiyle Instagram deneyiminizi dönüştürün. Sosyal medya indirme araçları konusunda uzmanlaşmış bir gezinme sitesi olarak, Instagram deneyiminizi kolayca geliştirmek için en iyi ve en güvenilir tarayıcı eklentilerine yönlendiriyoruz. İster içerik üreticisi, ister sosyal medya tutkunu, ister Instagram etkileşimini optimize etmeyi seven biri olun, gezginimiz size mükemmel aracı hızlı ve kolay bir şekilde bulmanızda yardımcı olur."
+  },
+  "nameGeneratorPage": {
+    "title": "Ücretsiz Instagram İsim Üreteci – Benzersiz İsminizi Bugün Oluşturun",
+    "description": "Ücretsiz Instagram isim üretecimizle kolayca benzersiz Instagram isminizi oluşturun. Taze kullanıcı adı fikirleri keşfedin ve bugün öne çıkın!",
+    "heroTitle": "Instagram İsim Üreteci",
+    "heroText": "Instagram İsim Üretecimize hoş geldiniz, saniyeler içinde benzersiz, akılda kalıcı ve kullanılabilir kullanıcı adları oluşturmak için nihai araç. İster kişisel hesap, ister marka için olsun, üretecimiz girdinizi gelişmiş algoritmalarla birleştirerek öne çıkan ve tarzınıza uygun mükemmel kullanıcı adını sunar.",
+    "keyFeatures": {
+      "title": "Instagram İsim Üretecinin Temel Özellikleri:",
+      "content": "Akıllı Algoritma: Benzersiz ve kullanılabilir kullanıcı adları oluşturmak için gelişmiş yapay zeka algoritmaları kullanır. Özelleştirme Seçenekleri: İsminizi, markanızı veya anahtar kelimelerinizi girin ve oyun, profesyonel ve yaratıcı gibi kategorilerden seçim yapın. Anlık Öneriler: Kullanıma hazır kullanıcı adı fikirlerini anında alın. Sayısal Seçenekler: Benzersizliği artırmak için kullanıcı adınıza sayı ve sembol eklemeyi seçin."
+    },
+    "benefits": {
+      "title": "Instagram İsim Üretecinin Faydaları:",
+      "timeSaving": {
+        "title": "Zaman Tasarrufu",
+        "content": "Artık saatlerce beyin fırtınası yok; birkaç tıklamayla anlık ve yaratıcı kullanıcı adı önerileri alın."
+      },
+      "personalization": {
+        "title": "Kişiselleştirme",
+        "content": "Instagram isminizi markanıza veya kişisel tarzınıza uygun olarak kolayca özelleştirin."
+      },
+      "memorability": {
+        "title": "Akılda Kalıcılık",
+        "content": "Her kullanıcı adı, Instagram'da güçlü bir varlık oluşturmak için önemli olan akılda kalıcı ve telaffuzu kolay olacak şekilde tasarlanmıştır."
+      },
+      "versatility": {
+        "title": "Çok Yönlülük",
+        "content": "Çeşitli niş ve kategoriler için uygun, kullanıcı adınızın hedef kitlenizle rezonansa girmesini sağlar."
+      }
+    },
+    "technicalSpecs": {
+      "title": "Teknik Özellikler",
+      "intro": "Instagram İsim Üretecimiz, tercihlerinize göre benzersiz kullanıcı adı önerileri oluşturmak için akıllı algoritmalar kullanır:",
+      "list": {
+        "item1": "Kullanıcı Girdisi: İsimleri, markaları ve anahtar kelimeleri kabul eder.",
+        "item2": "Algoritma: Gerçek zamanlı kullanıcı adı oluşturmak için akıllı ve uyarlanabilir algoritmalar kullanır.",
+        "item3": "Kullanıcı adınıza sayı eklemek isteyip istemediğinize karar verin",
+        "item4": "Çıktı: Benzersiz ve kullanılabilir kullanıcı adlarının listesini sunar."
+      },
+      "outro": "Her oluşturulan kullanıcı adı, Instagram'da varlık oluşturmak için önemli olan okunabilirlik ve akılda kalıcılığı sağlayarak benzersizliği korumak için tasarlanmıştır."
+    },
+    "uniqueSellingPoints": {
+      "title": "Benzersiz Satış Noktaları",
+      "easeOfUse": {
+        "title": "Kullanım Kolaylığı",
+        "content": "Birkaç tıklamayla kullanıcı adları oluşturan ve kopyalayan basit arayüz."
+      },
+      "creativityBoost": {
+        "title": "Yaratıcılık Artışı",
+        "content": "Çeşitli kelime, sayı ve özel karakter kombinasyonlarıyla ilham alın."
+      },
+      "seoFriendly": {
+        "title": "SEO Dostu",
+        "content": "Nişinize uygun benzersiz ve alakalı kullanıcı adlarıyla Instagram SEO'nuzu geliştirin."
+      },
+      "conclusion": "İster yeni bir Instagram hesabı oluşturuyor, ister mevcut bir hesabı yeniden başlatıyor olun, Instagram İsim Üretecimiz, özünüzü yansıtan ve kitlenizi çeken çekici kullanıcı adları oluşturmak için güvenilir aracınızdır. Bugün deneyin ve Instagram varlığınızı yükseltin!"
+    }
+  },
+  "blogPage": {
+    "title": "Blog - InstagramToMP4",
+    "description": "Instagram videolarını dönüştürmek için en iyi araçları keşfedin. Özenle seçilmiş listemiz, Instagram videolarını kolayca indirmenize ve MP4'e dönüştürmenize yardımcı olur. En iyi Instagram video indiricilerini burada bulun!",
+    "h1": "Blog",
+    "p": "Instagram medyasını indirme ve dönüştürme konusunda nihai rehberi keşfedin. 2025'te en iyi araçlarla güncel kalın. Daha fazla bilgi için tıklayın!"
+  },
+  "fourCategories": {
+    "title": "Seçilmiş Instagram Araç Kategorileri",
+    "title1": "Instagram'dan MP4'e",
+    "description1": "Instagram Video İndirme Aracı | Instagram Videolarını Dönüştürmenin En İyi Yolu",
+    "title2": "Instagram'dan MP3'e",
+    "description2": "En İyi Instagram'dan MP3'e Dönüştürme Araçları",
+    "title3": "Instagram Reels İndirici",
+    "description3": "Instagram Reels İndirme Araçları - Kapsamlı Gezinme Rehberi",
+    "title4": "Instagram Eklentileri",
+    "description4": "Kapsamlı Gezinme Rehberimizle En İyi Instagram Eklentilerini Keşfedin",
+    "title5": "Instagram İsim Üreteci",
+    "description5": "Ücretsiz Instagram İsim Üreteci – Benzersiz İsminizi Bugün Oluşturun"
+  },
+  "featuredTools": {
+    "title": "Öne Çıkan Araçlar",
+    "showLess": "Daha Az Göster",
+    "viewMore": "Daha Fazla Göster"
+  },
+  "whyChoose": {
+    "title": "Neden Instagram'dan MP4'e Araç Gezginimizi Seçmelisiniz?",
+    "curatedTitle": "Özenle Seçilmiş İçerik:",
+    "curatedText": "En iyi Instagram'dan MP4'e dönüştürme araçlarının profesyonel seçimi.",
+    "comprehensiveTitle": "Kapsamlı Kapsam",
+    "comprehensiveText": "Her dönüştürme yöntemi için detaylı talimatlar ve tavsiyeler.",
+    "regularUpdatesTitle": "Düzenli Güncellemeler:",
+    "regularUpdatesText": "Instagram video indirici listemiz sürekli güncellenir.",
+    "freeAccessTitle": "Ücretsiz Erişim:",
+    "freeAccessText": "Kayıt gerektirmez - Hemen Instagram'dan MP4'e dönüştürmeye başlayın!",
+    "multiPlatformTitle": "Çoklu Platform Desteği:",
+    "multiPlatformText": "Tüm cihazlarla uyumlu - telefonlar, tabletler ve bilgisayarlar."
+  },
+  "howToConvert": {
+    "title": "Instagram Videolarını MP4'e Nasıl Dönüştürürsünüz",
+    "browseTitle": "Gezin",
+    "browseText": "Instagram'dan MP4'e indirme araçlarımızın listesinde gezinin",
+    "readTitle": "Oku",
+    "readText": "Her Instagram video dönüştürücüsünün kullanıcı açıklamalarını ve yorumlarını okuyun",
+    "chooseTitle": "Seç",
+    "chooseText": "Tercih ettiğiniz Instagram'dan MP4'e aracı seçin",
+    "convertingTitle": "Dönüştür",
+    "convertingText": "Instagram videolarını MP4'e indirmeye ve dönüştürmeye başlamak için bağlantılarımıza tıklayın"
+  },
+  "testimonials": {
+    "title": "Kullanıcı Yorumları",
+    "quote1": "Instagram'dan MP4'e Araç Gezgini sayesinde dakikalar içinde mükemmel dönüştürücüyü buldum!",
+    "author1": "Ahmet R",
+    "quote2": "Bu site bana saatlerce arama süresinden tasarruf sağladı. Buradaki Instagram video indiricileri güvenilir ve hızlı!",
+    "author2": "Ayşe S",
+    "quote3": "İçerik üreticisi olarak, tüm Instagram'dan MP4'e dönüştürme ihtiyaçlarım için InstaToolNav'a güveniyorum. Gerçekten devrim niteliğinde!",
+    "author3": "Mehmet T"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "question1": "Bu Instagram'dan MP4'e araçlar güvenli mi?",
+    "answer1": "Tüm araçların güvenliğini kontrol ediyoruz, ancak indirme sırasında dikkatli olmanızı öneririz.",
+    "question2": "Bu Instagram video dönüştürücüleri için ödeme yapmam gerekiyor mu?",
+    "answer2": "Birçok Instagram'dan MP4'e aracı ücretsizdir, ancak bazıları premium özellikler sunar.",
+    "question3": "Instagram'dan MP4'e araç listenizi ne sıklıkla güncelliyorsunuz?",
+    "answer3": "Tüm Instagram video indiricilerin düzgün çalıştığından emin olmak için listeyi haftalık olarak kontrol ediyor ve güncelliyoruz."
+  },
+  "cat": {
+    "title": "Instagram'dan MP4'e Araçları Hemen Keşfedin!",
+    "text": "Not: Instagram videolarını MP4'e dönüştürürken her zaman telif hakkı yasalarına uyun."
+  },
+  "privacyPolicy": {
+    "title": "Gizlilik Politikası",
+    "intro": "İnternette gizlilik, InstagramToMP4 web sitesi için en önemli önceliktir. Bu Gizlilik Politikası, InstagramToMP4 web sitesini ziyaret ettiğinizde hangi bilgilerin toplandığını, bu bilgilerin nasıl kullanıldığını ve açıklandığını ve kişisel bilgilerinizin kullanımının ve açıklanmasının nasıl kontrol edildiğini ve korunduğunu bilgilendirmek için tasarlanmıştır.",
+    "notice": "Lütfen kişisel bilgilerinizin işlenmesi hakkında bilgi edinin ve sorularınız varsa bizimle iletişime geçin.",
+    "whatWeCollect": {
+      "title": "Hangi bilgileri topluyoruz?",
+      "personal": {
+        "title": "1. Kişisel Tanımlama Bilgileri",
+        "content": "Kullanıcılardan çeşitli yollarla kişisel tanımlama bilgileri toplayabiliriz, bunlar arasında ancak bunlarla sınırlı olmamak üzere, kullanıcılar sitemizi ziyaret ettiğinde, siteye kaydolduğunda, sipariş verdiğinde, form doldurduğunda ve sitemizde sunduğumuz diğer aktiviteler, hizmetler, özellikler veya kaynaklarla bağlantılı olarak. Kullanıcılar sitemizi anonim olarak ziyaret edebilir. Kullanıcılardan kişisel tanımlama bilgilerini yalnızca kullanıcılar bize gönüllü olarak sağladığında toplayacağız. Kullanıcılar her zaman kişisel tanımlama bilgilerini sağlamayı reddedebilir, ancak bu, siteyle ilgili belirli aktivitelere katılmalarını engelleyebilir."
+      },
+      "nonPersonal": {
+        "title": "2. Kişisel Olmayan Tanımlama Bilgileri",
+        "content": "Kullanıcı sitemizle etkileşime girdiğinde, kullanıcı hakkında kişisel olmayan tanımlama bilgileri toplayabiliriz. Kişisel olmayan tanımlama bilgileri, tarayıcı adı, bilgisayar türü ve kullanıcının sitemize bağlanma araçları hakkında işletim sistemi ve kullanılan internet servis sağlayıcıları gibi teknik bilgileri içerebilir."
+      }
+    },
+    "tracking": {
+      "title": "İzleme Teknolojileri ve Çerezler",
+      "intro": "Hizmetimizdeki aktiviteyi izlemek ve belirli bilgileri saklamak için çerezler ve benzer izleme teknolojileri kullanıyoruz. Kullanılan izleme teknolojileri, bilgi toplamak ve izlemek ve hizmetimizi iyileştirmek ve analiz etmek için işaretçiler, etiketler ve betiklerdir.",
+      "browserNotice": "Tarayıcınızı tüm çerezleri reddetmek veya bir çerez gönderildiğinde sizi bilgilendirmek için ayarlayabilirsiniz. Ancak, çerezleri kabul etmezseniz, hizmetimizin bazı bölümlerini kullanamayabilirsiniz.",
+      "types": "Çerezler 'kalıcı' veya 'oturum' çerezleri olabilir. Kalıcı çerezler, çevrimdışıyken kişisel bilgisayarınızda veya mobil cihazınızda kalırken, oturum çerezleri web tarayıcınızı kapattığınızda silinir.",
+      "purpose": "Oturum ve kalıcı çerezleri şu nedenlerle kullanıyoruz:",
+      "list": {
+        "necessary": "Gerekli/temel çerezler: 'Oturum çerezleri' Bu çerezler, web sitesi üzerinden hizmetleri sağlamak ve bazı özelliklerini kullanmanıza olanak tanımak için gereklidir.",
+        "policy": "Politika/kabul bildirimi çerezleri: 'Kalıcı çerezler' Bu çerezler, kullanıcıların web sitesinde çerez kullanımını kabul edip etmediğini tanımlar.",
+        "functionality": "İşlevsellik çerezleri: 'Kalıcı çerezler' Bu çerezler, web sitesinin web sitesini kullanırken yaptığınız seçimleri hatırlamasını sağlar, örneğin dilinizi hatırlamak gibi.",
+        "tracking": "İzleme ve performans çerezleri: 'Kalıcı çerezler' Bu çerezler, web sitesi trafiğini ve kullanıcıların web sitesini nasıl kullandığını izlemek için kullanılır.",
+        "targeting": "Hedefleme ve reklam çerezleri: 'Kalıcı çerezler' Üçüncü taraf hedefleri: Bu çerezler, size ilgi çekici olması muhtemel reklamları göstermek için görüntüleme alışkanlıklarınızı izler."
+      }
+    },
+    "useOfInfo": {
+      "title": "Toplanan bilgileri nasıl kullanıyoruz?",
+      "intro": "Web sitesi kişisel verileri şu amaçlarla kullanabilir:",
+      "list": {
+        "contact": "İletişim: E-posta veya diğer eşdeğer elektronik iletişim araçlarıyla iletişim.",
+        "news": "Talep ettiğiniz hizmetlere benzer diğer hizmetler ve etkinlikler hakkında genel bilgi sağlama (eğer bu tür bilgileri almayı reddetmediyseniz).",
+        "requests": "İstek yönetimi: İsteklerinizi yönetme ve yanıtlama."
+      }
+    },
+    "retention": {
+      "title": "Kişisel Verilerin Saklanması",
+      "content": "InstagramToMP4 web sitesi, kişisel verilerinizi yalnızca bu Gizlilik Politikasında belirtilen amaçlar için gerekli olan süre boyunca saklayacaktır. Yasal yükümlülüklerimizi yerine getirmek, anlaşmazlıkları çözmek ve yasal anlaşmalarımıza ve politikalarımıza uyumu sağlamak için gerekli olduğu ölçüde kişisel verilerinizi saklayacağız ve kullanacağız."
+    },
+    "disclosure": {
+      "title": "Kişisel Verilerin Açıklanması",
+      "list": {
+        "business": "İş işlemleri: InstagramToMP4 bir birleşme, satın alma veya varlık satışına katılırsa, kişisel verileriniz aktarılabilir.",
+        "law": "Yasaya uygunluk: Belirli durumlarda, InstagramToMP4, yasa gereği veya devlet kurumlarından gelen geçerli taleplere yanıt olarak kişisel verilerinizi açıklamak zorunda kalabilir.",
+        "legal": "Diğer yasal gereklilikler: Yasal bir yükümlülüğe uyma, hizmetle ilgili yasadışı eylemleri önleme veya soruşturma, yasal sorumluluktan korunma, kişisel verilerin güvenliği."
+      }
+    },
+    "security": {
+      "title": "Güvenlik",
+      "content": "Kullanıcıların web sitemize gönüllü olarak sağladığı kişisel tanımlama bilgilerini, kullanıcının önceden izni olmadan üçüncü taraflara satmıyor, takas etmiyor veya başka bir şekilde transfer etmiyoruz. Ancak, istekleri karşılamak için kullanıcı bilgilerini paylaşabiliriz. Sitemizin kullanıcıları tarafından sağlanan tüm bilgiler, dikkat ve güvenlikle saklanır ve yalnızca bu Gizlilik Politikasında, siteye özgü politikalarda veya açıkça kabul edilmiş yöntemlerde belirtilen amaçlar için kullanılır."
+    },
+    "changes": {
+      "title": "Gizlilik Politikasında Değişiklikler",
+      "content": "InstagramToMP4, bu Gizlilik Politikasını herhangi bir zamanda güncelleme hakkını saklı tutar. Yeni Gizlilik Politikasını bu sayfada yayınlayarak sizi herhangi bir değişiklik hakkında bilgilendireceğiz. Bu Gizlilik Politikasını değişiklikler için periyodik olarak kontrol etmenizi öneririz. Bu Gizlilik Politikasındaki değişiklikler, bu sayfada yayınlandığında yürürlüğe girer."
+    },
+    "acceptance": {
+      "title": "Gizlilik Politikasının Kabulü",
+      "content": "Web sitesinin herhangi bir sayfasını kullanmak, bu Gizlilik Politikasını ve web sitesi kullanım koşullarını koşulsuz olarak kabul etmenizi gerektirir. Bu Gizlilik Politikasının herhangi bir hükmüyle katılmıyorsanız, web sitesi sayfalarını hemen terk etmeli ve web sitesini kullanmayı durdurmalısınız."
+    },
+    "contact": {
+      "title": "İletişim",
+      "content": "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen web sitesinin iletişim sayfası aracılığıyla bizimle iletişime geçin."
+    }
+  },
+  "termsOfService": {
+    "title": "Kullanım Koşulları",
+    "introduction": {
+      "title": "Giriş",
+      "content": "InstagramToMP4'e hoş geldiniz. Sitemize (https://instagramtomp4.com/) erişerek, bu Kullanım Koşullarını, tüm uygulanabilir yasa ve yönetmelikleri kabul etmiş ve uygulanabilir yerel yasalara uymaktan sorumlu olmayı kabul etmiş olursunuz. Bu koşullardan herhangi birini kabul etmiyorsanız, bu siteyi kullanmanız veya erişmeniz yasaktır."
+    },
+    "useLicense": {
+      "title": "Kullanım Lisansı",
+      "intro": "InstagramToMP4 web sitesindeki materyallerin (bilgi veya yazılım) geçici olarak kişisel, ticari olmayan geçici görüntüleme için bir kopyasını indirmenize izin verilir. Bu bir lisans verilmesidir, mülkiyet devri değildir ve bu lisans altında şunları yapamazsınız:",
+      "restrictions": [
+        "materyalleri değiştirmek veya kopyalamak;",
+        "materyalleri herhangi bir ticari amaç veya herhangi bir kamu gösterimi (ticari veya ticari olmayan) için kullanmak;",
+        "InstagramToMP4 web sitesinde bulunan herhangi bir yazılımı tersine mühendislik yapmaya veya dekompile etmeye çalışmak;",
+        "materyallerden telif hakkı veya diğer mülkiyet işaretlerini kaldırmak; veya",
+        "materyalleri başka bir kişiye aktarmak veya herhangi başka bir sunucuda 'yansıtmak'."
+      ],
+      "termination": "Bu lisans, bu kısıtlamalardan herhangi birini ihlal ettiğinizde otomatik olarak sona erer ve InstagramToMP4 tarafından herhangi bir zamanda sonlandırılabilir. Bu materyalleri görüntülemeyi sonlandırdığınızda veya bu lisans sona erdiğinde, elinizde bulunan indirilmiş materyalleri, elektronik veya basılı formatta olsun, yok etmelisiniz."
+    },
+    "disclaimer": {
+      "title": "Sorumluluk Reddi",
+      "content": "InstagramToMP4 web sitesindeki materyaller 'olduğu gibi' sunulmaktadır. InstagramToMP4, açık veya zımni hiçbir garanti vermemekte ve bu yolla tüm diğer garantileri reddetmekte ve inkar etmektedir, bunlar arasında, sınırlama olmaksızın, ticari satılabilirlik, belirli bir amaca uygunluk veya fikri mülkiyet haklarının ihlal edilmemesi veya diğer hak ihlalleri ile ilgili zımni garantiler veya koşullar bulunmaktadır."
+    },
+    "limitations": {
+      "title": "Sınırlamalar",
+      "content": "Hiçbir durumda InstagramToMP4 veya tedarikçileri, InstagramToMP4 web sitesindeki materyallerin kullanımından veya kullanılamamasından kaynaklanan herhangi bir hasardan (veri veya kâr kaybı veya iş kesintisi dahil, ancak bunlarla sınırlı olmamak üzere) sorumlu tutulamaz, InstagramToMP4 veya InstagramToMP4'nin yetkili temsilcisi sözlü veya yazılı olarak bu tür hasar olasılığı hakkında bilgilendirilmiş olsa bile."
+    },
+    "accuracy": {
+      "title": "Materyallerin Doğruluğu",
+      "content": "InstagramToMP4 web sitesinde görünen materyaller teknik, tipografik veya fotoğrafik hatalar içerebilir. InstagramToMP4, web sitesindeki herhangi bir materyalin doğru, eksiksiz veya güncel olduğunu garanti etmez. InstagramToMP4, web sitesinde bulunan materyallerde herhangi bir zamanda önceden haber vermeksizin değişiklik yapabilir. Ancak InstagramToMP4, materyalleri güncelleme taahhüdünde bulunmaz."
+    },
+    "links": {
+      "title": "Bağlantılar",
+      "content": "InstagramToMP4, web sitesine bağlı tüm siteleri incelememiştir ve bu tür bağlı sitelerin içeriğinden sorumlu değildir. Herhangi bir bağlantının dahil edilmesi, InstagramToMP4 tarafından sitenin onaylandığı anlamına gelmez. Bağlı herhangi bir sitenin kullanımı kullanıcının kendi riski altındadır."
+    },
+    "modifications": {
+      "title": "Değişiklikler",
+      "content": "InstagramToMP4, web sitesi için bu Kullanım Koşullarını herhangi bir zamanda önceden haber vermeksizin gözden geçirebilir. Bu siteyi kullanarak, bu Kullanım Koşullarının güncel versiyonuna bağlı olmayı kabul etmiş olursunuz."
+    },
+    "governingLaw": {
+      "title": "Uygulanacak Hukuk",
+      "content": "Bu koşullar Amerika Birleşik Devletleri yasalarına göre yönetilir ve yorumlanır ve siz, o eyalet veya bölgedeki mahkemelerin münhasır yargı yetkisine koşulsuz olarak tabi olursunuz."
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "content": "Bu Koşullar hakkında herhangi bir sorunuz varsa, lütfen info@instagramtomp4.com adresinden bizimle iletişime geçin."
+    }
+  }
+}

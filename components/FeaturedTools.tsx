@@ -17,12 +17,14 @@ interface FeaturedTool {
 interface FeaturedToolsProps {
   featuredTools: FeaturedTool[];
   description: string;
+  dict: any;
 }
 
 export function FeaturedTools({
   featuredTools,
   description,
-}: FeaturedToolsProps) {
+  dict,
+  }: FeaturedToolsProps) {
   const [showAll, setShowAll] = useState(false);
   const displayedTools = showAll ? featuredTools : featuredTools.slice(0, 10);
 
@@ -30,7 +32,7 @@ export function FeaturedTools({
     <section className="py-8 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Featured Tools</h2>
+          <h2 className="text-4xl font-bold mb-4">{dict.featuredTools.title}</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             {description}
           </p>
@@ -79,9 +81,9 @@ export function FeaturedTools({
         {featuredTools.length > 10 && (
           <div className="text-center mt-12">
             <button
-              onClick={() => setShowAll(!showAll)}
+              onClick={() => setShowAll(!showAll)}  
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-              {showAll ? "Show Less" : "View More"}
+              {showAll ? dict.featuredTools.showLess : dict.featuredTools.viewMore}
               <ChevronRight className="ml-2 h-5 w-5" />
             </button>
           </div>

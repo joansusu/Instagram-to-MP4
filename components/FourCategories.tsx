@@ -1,47 +1,50 @@
 import { Video, Film, UserRoundPen, Blocks, AudioLines } from "lucide-react";
 import Link from "next/link";
-
-const categories = [
-  {
-    title: "Instagram to MP4",
-    description: "Instagram to MP4 Downloader Tools | Best Ways to Convert Instagram Videos",
-    icon: Video,
-    href: "/",
-  },
-  {
-    title: "Instagram to MP3",
-    description: "Best Instagram to MP3 Converter Tools",
-    icon: AudioLines,
-    href: "/instagram-to-mp3",
-  },
-  {
-    title: "Instagram Reel Downloader",
-    description: "Top Instagram Reel Downloader Tools - Your Ultimate Navigation Guide",
-    icon: Film,
-    href: "/instagram-reel-downloader",
-  },
-  {
-    title: "Extensions For Instagram",
-    description: "Explore the best Extensions for Instagram with our comprehensive navigation guide",
-    icon: Blocks,
-    href: "/extensions-for-instagram",
-  },
-  {
-    title: "Instagram Username Generator",
-    description: "Free Instagram Username Generator – Create Your Unique Name Today",
-    icon: UserRoundPen,
-    href: "/instagram-name-generator",
-  },
-];
-
+import { getDictionary } from "@/lib/getDictionary";
 interface FourCategoriesProps {
-  excludeWords: string;
+  excludeWords: string; 
+  currentLang: string;
 }
-export default function FourCategories({ excludeWords }: FourCategoriesProps) {
+export default async function FourCategories({ excludeWords, currentLang }: FourCategoriesProps) {
+  const dict = await getDictionary(currentLang);
+
+  const categories = [
+    {
+      title: dict.fourCategories.title1,        
+      description: dict.fourCategories.description1,
+      icon: Video,
+      href: "/",
+    },
+    {
+      title: dict.fourCategories.title2,
+      description: dict.fourCategories.description2,
+      icon: AudioLines,
+      href: `/${currentLang}/instagram-to-mp3`,
+    },
+    {
+      title: dict.fourCategories.title3,
+      description: dict.fourCategories.description3,
+      icon: Film,
+      href: `/${currentLang}/instagram-reel-downloader`,
+    },
+    {
+      title: dict.fourCategories.title4,
+      description: dict.fourCategories.description4,
+      icon: Blocks,
+      href: `/${currentLang}/extensions-for-instagram`,
+    },
+    {
+      title: dict.fourCategories.title5,
+      description: dict.fourCategories.description5,
+      icon: UserRoundPen,
+      href: `/${currentLang}/instagram-name-generator`,
+    },
+  ];
+
   return (
     <section className="mb-16">
       <h2 className="text-3xl font-semibold mb-8 text-center">
-        Featured Instagram Tool Categories
+        {dict.fourCategories.title}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {categories
