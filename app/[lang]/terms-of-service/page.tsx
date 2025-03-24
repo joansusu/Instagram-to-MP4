@@ -17,6 +17,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
   return {
     title: dict.termsOfService.title,
+    description: "Review Instagram to MP4 Terms of Service. Learn the rules for using our free video downloader safely and legally.",
     alternates: generateHreflang(lang, "terms-of-service"),
   };
 }

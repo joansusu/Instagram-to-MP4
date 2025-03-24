@@ -17,6 +17,7 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
   return {
     title: dict.privacyPolicy.title,
+    description: "Learn how InstagramToMP4 collects, uses, and protects your personal information. Understand our privacy practices and cookie usage.",
     alternates: generateHreflang(lang, "privacy-policy"),
   };
 }
